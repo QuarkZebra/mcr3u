@@ -344,7 +344,7 @@ const COURSE = {
     {d:32, iso:"2026-10-19", flag:"pquiz", covers:"Current Topics + Transformations + Other Old Topic",
       topic:"Quadratic Applications & Modelling", num:"3.8",
       note:D("1uvhBtUCe4Pty-sS0Z9KqwDJAFTmhMLcg"),
-      ans:"", /* key: D("1jpQ4SAPsumwV7-mzfk19E3VY93A0c15Z") */ extras:[
+      ans:D("1jpQ4SAPsumwV7-mzfk19E3VY93A0c15Z"), /* key: D("1jpQ4SAPsumwV7-mzfk19E3VY93A0c15Z") */ extras:[
       ["Modelling Problems",D("15nQQbG7CiecLaTs7PfTcIXTQreCeHUxy"),"doc"],
       ["Answers",D("160Id0p6LbqrqAPsZIJlOdjrP-6AomcFn"),"ans"],
       ["Extra Modelling Question",D("18tgNL0nXk_qFXyeNyHq4yaDw4HibmHu5"),"doc"],

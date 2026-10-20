@@ -351,7 +351,7 @@ const COURSE = {
       ["Answers",D("18u6p95YNoy5yr_h3NmPJblB2CZTLe66w"),"ans"],
     ]},
     {d:33, iso:"2026-10-20", topic:"Review",
-      noteLabel:"Practice Test", ansLabel:"Answers", note:D("1vJKXlLkFEhADUpaadr_1DPjDeODkT8yM"), ans:"", /* key: D("1LTuQgIFojaJk802fuNQTtCgXKPNsGlxX") */ extras:[
+      noteLabel:"Practice Test", ansLabel:"Answers", note:D("1vJKXlLkFEhADUpaadr_1DPjDeODkT8yM"), ans:D("1LTuQgIFojaJk802fuNQTtCgXKPNsGlxX"), /* key: D("1LTuQgIFojaJk802fuNQTtCgXKPNsGlxX") */ extras:[
       ["Ms Havrot: Chapter 3 Practice Test (Part 1)","https://www.youtube.com/watch?v=Php2E7O9tAQ","vid"],
       ["Ms Havrot: Chapter 3 Practice Test (Part 2)","https://www.youtube.com/watch?v=XHgoHFdrp2k","vid"],
       ["JensenMath: Quadratics Unit Review",D("1y0dTdbIT-EJoYSFguwLSZEruKOOQj2ax"),"doc"],

@@ -376,7 +376,7 @@ const COURSE = {
     ]},
     {d:36, iso:"2026-10-23", topic:"Rational Exponents", num:"4.2",
       note:D("1mSVRt7DOKDPQqwATdmwwATKiD9sZ1-lO"),
-      ans:"", /* key: D("1zr4WHpM8IIkfgJalxWHb9HLzPEsnI2rd") */ extras:[
+      ans:D("1zr4WHpM8IIkfgJalxWHb9HLzPEsnI2rd"), /* key: D("1zr4WHpM8IIkfgJalxWHb9HLzPEsnI2rd") */ extras:[
       ["Ms Havrot 4.3: Rational Exponents","https://www.youtube.com/watch?v=R0lhsIEBC6k","vid"],
       ["Simplifying Rational Exponents","https://www.youtube.com/watch?v=S34NM0Po0eA","vid"],
       ["Rational Exponents Practice",D("182zS4hOiXNe8B6RxQf09IoOOmXEmqjiG"),"doc"],

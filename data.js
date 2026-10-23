@@ -365,7 +365,7 @@ const COURSE = {
   {name:"Exponential Functions", days:[
     {d:35, iso:"2026-10-22", topic:"Integer Exponents", num:"4.1",
       note:D("1debMv_rGlsySZMCJq2F5L-AGdEw2vgJo"),
-      ans:"", /* key: D("1kVQlVBiVZ5Qf9awFBhM15hWiUsBYqYhT") */ extras:[
+      ans:D("1kVQlVBiVZ5Qf9awFBhM15hWiUsBYqYhT"), /* key: D("1kVQlVBiVZ5Qf9awFBhM15hWiUsBYqYhT") */ extras:[
       ["Unit 4 Prerequisite Skills (answers included)",D("1Xtx248GDqRVTtbMYa0Q3qy-fTfwactUm"),"skills"],
       ["Ms Havrot 4.2: Integer Exponents","https://www.youtube.com/watch?v=FDjUeC3WJWU","vid"],
       ["Zero, Negative & Fractional Exponents","https://www.youtube.com/watch?v=tOuCdKqO6-s","vid"],

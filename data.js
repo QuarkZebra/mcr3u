@@ -387,7 +387,7 @@ const COURSE = {
     ]},
     {d:37, iso:"2026-10-26", topic:"Simplifying Expressions with Exponents", num:"4.3",
       note:D("1lUxGr_jL-u8A1GgyktCtzrZnXClH7FCk"),
-      ans:"", /* key: D("1H0P03PwhteSGjCq5IKqxdGY_vVbcb1zp") */ extras:[
+      ans:D("1H0P03PwhteSGjCq5IKqxdGY_vVbcb1zp"), /* key: D("1H0P03PwhteSGjCq5IKqxdGY_vVbcb1zp") */ extras:[
       ["Ms Havrot 4.4: Simplifying Expressions with Exponents","https://www.youtube.com/watch?v=5xA4yb9HuvU","vid"],
       ["Exponent Worksheet",D("18OkSTlX0wHwBtbrPsPz8bW6ABk8ZgI-q"),"doc"],
       ["Challenging Exponent Law Practice",D("1i5T_lW37ljSpdkk88FAGv-Vw4QLGCreM"),"doc"],

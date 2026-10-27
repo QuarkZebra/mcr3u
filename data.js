@@ -19,6 +19,8 @@
    - covers: the topics written inside that flag, after the colon
            ("PRACTICE QUIZ: Current Topic + Factoring + Other Old
            Topic"). Leave "" and the flag is just the word.
+   - nocalc: true adds the "No Calculator Test" badge under the
+           flag (the calculator that keeps getting shot down).
    - topic: the lesson taught that day. On a flagged day it sits
            below the flag; leave "" if nothing new is taught after
            the quiz/test. Quiz days use noteLabel/ansLabel for
@@ -445,7 +447,7 @@ const COURSE = {
     ]},
     {d:44, iso:"2026-11-04", topic:"Review",
       noteLabel:"Grade 10 Trigonometry Review", ansLabel:"Answers", note:D("1LZcRVbU_AciH_FEdVkhGG7RrMXFUIXQg"), ans:"", /* key: D("1gvteluV7GNiEfzTvcrmwEzeD4jztZBNJ") */ extras:[]},
-    {d:45, iso:"2026-11-05", flag:"test", covers:"Unit 4 + Trigonometry",
+    {d:45, iso:"2026-11-05", flag:"test", covers:"Unit 4", nocalc:true,
       topic:"", extras:[]},
   ]},
 

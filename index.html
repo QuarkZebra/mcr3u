@@ -228,20 +228,41 @@ header .sub{color:var(--t3);font-size:.88rem;margin-top:.35rem}
 .flag+.lgroup{margin-top:0}
 .hero .flag{margin:.5rem 0 .55rem;padding:.3rem .7rem}
 .hero .flag .fk{font-size:.64rem}.hero .flag .fc{font-size:.95rem}
-/* No-calculator badge: a calculator slowly gets back on its feet, a crosshair finds it, and down it goes again (8 s loop). */
+/* No-calculator badge: a calculator slowly gets back on its feet and is knocked down again, 8 s a cycle. Four cycles it is
+   shot (crosshair, a shot from the left, it topples); every fifth a hammer comes out, pounds it three times and it bursts into
+   bits, which fade while the whole calculator reappears lying down. A small counter after render() restarts the one-shot
+   animations with .go, adding .smash on the fifth; the un-animated state is "lying down, caption showing". */
 .nocalc{display:inline-flex;align-items:center;gap:.55rem;width:fit-content;max-width:100%;margin:-.1rem 0 .5rem;color:var(--warn-fg)}
-.nocalc .fk{font-family:var(--mono);font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;white-space:nowrap;
-  opacity:1;animation:nc-txt 8s linear infinite}
+.nocalc .fk{font-family:var(--mono);font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;white-space:nowrap;opacity:1}
 .nocalc svg{width:auto;height:2.3rem;display:block;overflow:visible}
 .hero .nocalc{margin:0 0 .7rem;gap:.7rem}
 .hero .nocalc svg{height:3.2rem}.hero .nocalc .fk{font-size:.64rem}
-.nocalc .cal{fill:currentColor;transform-origin:68px 42px;transform:rotate(90deg);animation:nc-cal 8s cubic-bezier(.4,0,.6,1) infinite}
+.nocalc .cal{fill:currentColor;transform-origin:68px 42px;transform:rotate(90deg)}
 .nocalc .scr{fill:var(--bg)}.nocalc .key{fill:var(--bg);opacity:.75}
-.nocalc .dead{stroke:currentColor;stroke-width:1.1;stroke-linecap:round;fill:none;opacity:1;animation:nc-dead 8s linear infinite}
-.nocalc .xh{fill:none;stroke:var(--ans);stroke-width:1.2;stroke-linecap:round;transform-origin:60px 29px;opacity:0;animation:nc-xh 8s ease-out infinite}
-.nocalc .shot{stroke:var(--ans);stroke-width:1.8;stroke-linecap:round;opacity:0;animation:nc-shot 8s linear infinite}
-.nocalc .bang{fill:var(--ans);transform-origin:52px 24px;opacity:0;transform:scale(0);animation:nc-bang 8s ease-out infinite}
-.nocalc .db{fill:var(--ans);opacity:0;animation:nc-db 8s ease-in infinite}
+.nocalc .dead{stroke:currentColor;stroke-width:1.1;stroke-linecap:round;fill:none;opacity:1}
+.nocalc .xh{fill:none;stroke:var(--ans);stroke-width:1.2;stroke-linecap:round;transform-origin:60px 29px;opacity:0}
+.nocalc .shot{stroke:var(--ans);stroke-width:1.8;stroke-linecap:round;opacity:0}
+.nocalc .bang{fill:var(--ans);transform-origin:52px 24px;opacity:0;transform:scale(0)}
+.nocalc .bang2{fill:var(--ans);transform-origin:62px 14px;opacity:0;transform:scale(0)}
+.nocalc .db{fill:var(--ans);opacity:0}
+.nocalc .ham{transform-origin:92px 46px;opacity:0;transform:translateX(40px) rotate(20deg)}
+.nocalc .ham .hh{fill:var(--ans)}.nocalc .ham .hs{fill:currentColor;opacity:.8}
+.nocalc .sh{fill:currentColor;opacity:0}
+.nocalc .sh,.nocalc .db{transform-box:fill-box;transform-origin:center}
+.nocalc.go .fk{animation:nc-txt 8s linear 1}
+.nocalc.go .cal{animation:nc-cal 8s cubic-bezier(.4,0,.6,1) 1}
+.nocalc.go .dead{animation:nc-dead 8s linear 1}
+.nocalc.go .xh{animation:nc-xh 8s ease-out 1}
+.nocalc.go .shot{animation:nc-shot 8s linear 1}
+.nocalc.go .bang{animation:nc-bang 8s ease-out 1}
+.nocalc.go .db{animation:nc-db 8s ease-in 1}
+.nocalc.go.smash .fk{animation-name:nc-txt-sm}
+.nocalc.go.smash .cal{animation-name:nc-cal-sm}
+.nocalc.go.smash .dead{animation-name:nc-dead-sm}
+.nocalc.go.smash .xh,.nocalc.go.smash .shot,.nocalc.go.smash .bang,.nocalc.go.smash .db{animation:none}
+.nocalc.go.smash .ham{animation:nc-ham 8s linear 1}
+.nocalc.go.smash .bang2{animation:nc-bang2 8s linear 1}
+.nocalc.go.smash .sh{animation:nc-sh 8s linear 1}
 @keyframes nc-cal{0%,12%{transform:rotate(90deg)}36%{transform:rotate(6deg)}40%{transform:rotate(-5deg)}43%,55.5%{transform:rotate(0deg)}
   56%{transform:rotate(-4deg) translate(1px,0)}61%{transform:rotate(96deg)}64%{transform:rotate(84deg)}66%,100%{transform:rotate(90deg)}}
 @keyframes nc-dead{0%,13%{opacity:1}14%,57%{opacity:0}58%,100%{opacity:1}}
@@ -250,6 +271,24 @@ header .sub{color:var(--t3);font-size:.88rem;margin-top:.35rem}
 @keyframes nc-shot{0%,53.8%{opacity:0;transform:translateX(0)}54%{opacity:1}55.5%{opacity:1;transform:translateX(62px)}55.6%,100%{opacity:0;transform:translateX(62px)}}
 @keyframes nc-bang{0%,55.4%{opacity:0;transform:scale(0)}56%{opacity:1;transform:scale(1.25) rotate(10deg)}58.5%{opacity:.7;transform:scale(.9) rotate(30deg)}60%,100%{opacity:0;transform:scale(1.4) rotate(40deg)}}
 @keyframes nc-db{0%,55.4%{opacity:0;transform:translate(0,0)}56%{opacity:1}68%,100%{opacity:0;transform:translate(var(--dx),var(--dy)) rotate(260deg)}}
+/* The fifth cycle: up as usual, then three hammer blows (squash, squash, bits), the bits settle, and the calculator fades back in lying down */
+@keyframes nc-cal-sm{0%,12%{transform:rotate(90deg);opacity:1}36%{transform:rotate(6deg)}40%{transform:rotate(-5deg)}43%,53.5%{transform:rotate(0deg)}
+  54%{transform:rotate(0deg) scaleY(.78) scaleX(1.12)}56%{transform:rotate(0deg) scaleY(1)}57.5%{transform:rotate(0deg) scaleY(1)}
+  58%{transform:rotate(0deg) scaleY(.62) scaleX(1.2)}60%{transform:rotate(0deg) scaleY(1)}61.9%{transform:rotate(0deg);opacity:1}
+  62%,95%{transform:rotate(90deg);opacity:0}100%{transform:rotate(90deg);opacity:1}}
+@keyframes nc-dead-sm{0%,13%{opacity:1}14%,95%{opacity:0}100%{opacity:1}}
+@keyframes nc-txt-sm{0%,11%{opacity:1}19%,62%{opacity:0}65%,100%{opacity:1}}
+@keyframes nc-ham{0%,46%{opacity:0;transform:translateX(40px) rotate(20deg)}50%{opacity:1;transform:translateX(0) rotate(20deg);animation-timing-function:ease-in}
+  52.5%{transform:rotate(22deg);animation-timing-function:cubic-bezier(.6,0,1,.6)}54%{transform:rotate(-42deg);animation-timing-function:ease-out}
+  56%{transform:rotate(12deg);animation-timing-function:cubic-bezier(.6,0,1,.6)}58%{transform:rotate(-42deg);animation-timing-function:ease-out}
+  60%{transform:rotate(16deg);animation-timing-function:cubic-bezier(.6,0,1,.6)}62%{transform:rotate(-44deg)}64%{transform:rotate(-40deg);opacity:1}
+  69%{transform:translateX(0) rotate(20deg);opacity:1}72%,100%{transform:translateX(40px) rotate(20deg);opacity:0}}
+@keyframes nc-bang2{0%,53.8%{opacity:0;transform:scale(0)}54.2%{opacity:1;transform:scale(.7)}55.5%{opacity:0;transform:scale(1)}57.8%{opacity:0;transform:scale(0)}
+  58.2%{opacity:1;transform:scale(.9)}59.5%{opacity:0;transform:scale(1.2)}61.8%{opacity:0;transform:scale(0)}62.3%{opacity:1;transform:scale(1.6) rotate(15deg)}65%,100%{opacity:0;transform:scale(2.2) rotate(40deg)}}
+@keyframes nc-sh{0%,61.9%{opacity:0;transform:translate(0,0)}62%{opacity:1;transform:translate(0,0);animation-timing-function:ease-out}
+  66%{transform:translate(calc(var(--dx)*.65),calc(var(--dy)*.35 - 9px)) rotate(calc(var(--r)*.5));animation-timing-function:ease-in}
+  70%{transform:translate(var(--dx),var(--dy)) rotate(var(--r))}71%{transform:translate(var(--dx),calc(var(--dy) - 2px)) rotate(var(--r))}
+  72%,92%{opacity:1;transform:translate(var(--dx),var(--dy)) rotate(var(--r))}98%,100%{opacity:0;transform:translate(var(--dx),var(--dy)) rotate(var(--r))}}
 .lgroup{display:flex;flex-direction:column;gap:.22rem;margin-top:.25rem}
 .ico{width:.95em;height:.95em;flex-shrink:0;display:inline-block;vertical-align:-.12em;transition:transform .15s}
 .dlink{display:inline-flex;align-items:center;gap:.3rem;font-size:.8rem;line-height:1.35;transition:opacity .15s}
@@ -572,6 +611,11 @@ ${[0,1,2].map(r=>[0,1,2].map(c=>`<rect class="key" x="${54.6+c*3.7}" y="${26.6+r
 <rect class="db" style="--dx:18px;--dy:-14px" x="54" y="23" width="2.6" height="2.4" rx=".5"/>
 <rect class="db" style="--dx:28px;--dy:4px" x="55" y="26" width="2.6" height="2.4" rx=".5"/>
 <rect class="db" style="--dx:12px;--dy:12px" x="53" y="29" width="2.6" height="2.4" rx=".5"/>
+<g class="ham"><rect class="hs" x="90.6" y="5" width="2.8" height="41" rx="1.4"/><rect class="hh" x="85" y="-2" width="14" height="9" rx="1.5"/></g>
+<path class="bang2" d="M62 6.5l1.7 4.3 4.3-1.8-1.8 4.3 4.3 1.7-4.3 1.7 1.8 4.3-4.3-1.8-1.7 4.3-1.7-4.3-4.3 1.8 1.8-4.3-4.3-1.7 4.3-1.7-1.8-4.3 4.3 1.8z"/>
+${[["52,16 59,16 58,22 52,21","-28px","20px","-160deg"],["59,16 68,16 68,21 60,22","20px","22px","130deg"],["52,21 57,22 56,30 52,29","-20px","12px","-80deg"],
+  ["57,22 68,21 68,29 58,30","30px","12px","60deg"],["52,29 59,30 58,36 52,36","-35px","5px","-200deg"],["59,30 68,29 68,36 60,36","14px","6px","100deg"],
+  ["52,36 58,36 57,42 52,42","-12px","0px","-40deg"],["58,36 68,36 68,42 57,42","26px","0px","170deg"]].map(([pts,dx,dy,r])=>`<polygon class="sh" points="${pts}" style="--dx:${dx};--dy:${dy};--r:${r}"/>`).join("")}
 </svg><span class="fk">No Calculator Test</span></div>`;
 /* What to call a day that has no topic of its own (a pure quiz/test day) */
 function dayName(day){
@@ -836,6 +880,13 @@ dmBtn.addEventListener("click",()=>{
   if(document.startViewTransition&&!REDUCE)document.startViewTransition(apply);else apply();
 });
 render();renderEssentials();renderHero();syncBtn();
+/* No-calculator badges: run the 8-s cycle again when it ends; every fifth cycle is the hammer. Reduced motion never ends a cycle, so the badge just lies there. */
+document.querySelectorAll(".nocalc").forEach(el=>{
+  let n=0;
+  const go=()=>{el.classList.remove("go","smash");void el.offsetWidth;el.classList.toggle("smash",n%5===4);el.classList.add("go")};
+  el.addEventListener("animationend",e=>{if(e.target.classList.contains("cal")){n++;go()}});
+  go();
+});
 
 /* ══════════ Shared function vignettes ══════════
    Used by more than one site; each site's kinds file lists which it wants

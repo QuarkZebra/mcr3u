@@ -450,7 +450,7 @@ const COURSE = {
       ["Grade 10 Trigonometry Review",D("1LZcRVbU_AciH_FEdVkhGG7RrMXFUIXQg"),"doc"],
       ["Answers",D("1gvteluV7GNiEfzTvcrmwEzeD4jztZBNJ"),"ans"],
     ]},
-    {d:45, iso:"2026-11-05", flag:"test", covers:"Unit 4", nocalc:true,
+    {d:45, iso:"2026-11-05", flag:"test", covers:"Unit 4",
       topic:"", extras:[]},
   ]},
 
@@ -553,7 +553,7 @@ const COURSE = {
       ["JensenMath: Trig Geometry Unit Review",D("1e2Yfwaqq8CdB-aGG1mA1RarEB0_YMXMt"),"doc"],
       ["Answers",D("1bUOX200fks4m3DeC3dmU-dlkUbKe1TDK"),"ans"],
     ]},
-    {d:57, iso:"2026-11-24", flag:"test", covers:"Unit 5 + Transformations of Functions",
+    {d:57, iso:"2026-11-24", flag:"test", covers:"Unit 5 + Transformations of Functions", nocalc:true,
       topic:"", extras:[]},
   ]},
 

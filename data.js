@@ -443,13 +443,14 @@ const COURSE = {
       ["JensenMath: Exponential Functions Unit Review",D("1uzSnbjZ-hTT543MD--tEZ3b56HmuOIHa"),"doc"],
       ["Answers",D("1IZKfrWV-SvOE2YyKHpu2N7fm4tmTp8Mi"),"ans"],
     ]},
-    {d:44, iso:"2026-11-04", flag:"test", covers:"Unit 4 + Trigonometry",
+    {d:44, iso:"2026-11-04", topic:"Awards Day · Review Practice", note:"", ans:"", extras:[]},
+    {d:45, iso:"2026-11-05", flag:"test", covers:"Unit 4 + Trigonometry",
       topic:"", extras:[]},
   ]},
 
   /* ── UNIT 5 ─────────────────────────────────────────────── */
   {name:"Trig Ratios", days:[
-    {d:45, iso:"2026-11-05", topic:"Trig Ratios of Acute Angles", num:"5.1",
+    {d:46, iso:"2026-11-06", topic:"Trig Ratios of Acute Angles", num:"5.1",
       note:D("1_vWtR_Uz2jkG6hU4XVw7xPhdutM4tZhp"),
       ans:"", /* key: D("1tZVW8AoyRSDMEUeXbh8RQ3__Os77W6fj") */ extras:[
       ["Unit 5 Prerequisite Skills (answers included)",D("1Jy0yY2PcGE4QAfkfB6Z1Za7YYSe05EDK"),"skills"],
@@ -460,7 +461,7 @@ const COURSE = {
       ["JensenMath: Reciprocal Trig Ratios Worksheet",D("1KzrnrotMtxG85w01pMk8l6ihufpzy0DQ"),"doc"],
       ["Answers",D("12Sn8WcQj-pFaycNqwRgcRqIua6ghchjr"),"ans"],
     ]},
-    {d:46, iso:"2026-11-06", topic:"Special Angles", num:"5.2",
+    {d:47, iso:"2026-11-09", topic:"Special Angles", num:"5.2",
       note:D("1K_NRqUJimp-XPG0h_GGSkUG7jsx2-WSM"),
       ans:"", /* key: D("1QEmlHCmLItpgeO6YxjgNYpPJkA0VCxRX") */ extras:[
       ["Ms Havrot 5.2: Exact Values with Special Triangles","https://www.youtube.com/watch?v=oABJcKscW08","vid"],
@@ -470,7 +471,7 @@ const COURSE = {
       ["JensenMath: Special Angles Worksheet",D("10ktr9GOvECIkWI0DYVp-w5SsYjGv0iIE"),"doc"],
       ["Answers",D("18n76CGAAN6vEevXSz42puBYaFpYOId7p"),"ans"],
     ]},
-    {d:47, iso:"2026-11-09", topic:"Angles Beyond 90°", num:"5.3",
+    {d:48, iso:"2026-11-10", topic:"Angles Beyond 90°", num:"5.3",
       note:D("1c6ajJ0q2IAgaqUwK2QsVc4waz_B1hBzP"),
       ans:"", /* key: D("1RrQnEIFZabl9rck_nAmq_-eXbamHWleK") */ extras:[
       ["Ms Havrot 5.3: Trig Ratios for Angles Greater than 90 degrees","https://www.youtube.com/watch?v=H9dSvqUkDnE","vid"],
@@ -480,7 +481,7 @@ const COURSE = {
       ["JensenMath: Ratios for Angles Greater than 90 Worksheet",D("1_-Z0DccKoK22iTFf8-WlQZTjlbjpnYLd"),"doc"],
       ["Answers",D("10zQR6nvkG8WVnqNYHbLB3A208-5cbM5W"),"ans"],
     ]},
-    {d:48, iso:"2026-11-10", flag:"pquiz", covers:"Current Topics + Radicals + Other Old Topic",
+    {d:49, iso:"2026-11-11", flag:"pquiz", covers:"Current Topics + Radicals + Other Old Topic",
       topic:"Trig Ratios for Any Angle", num:"5.4",
       note:D("1-luPpRhDQNfP91DofFLVBB5YVCSSMe-S"),
       ans:"", /* key: D("15ICBZzKaFyF035RTsFO44EQ9u-vX4EKv") */ extras:[
@@ -489,7 +490,7 @@ const COURSE = {
       ["JensenMath: Solving Trig Equations Worksheet",D("1DwRcb4cVGADrXKoaHJCB6nULAkDrRSgB"),"doc"],
       ["Answers",D("1si7w_98MmbBl-Lzr_QKSBONMGx4jFfft"),"ans"],
     ]},
-    {d:49, iso:"2026-11-11", topic:"Trig Identities", num:"5.5",
+    {d:50, iso:"2026-11-12", topic:"Trig Identities", num:"5.5",
       note:D("13o-EtHxGXVAhepHVOgr8F69W1cni52oL"),
       ans:"", /* key: D("1mpIndCEUYAk3MOn7nSwhxdXMfYQgMl7V") */ extras:[
       ["Ms Havrot 5.5: Trigonometric Identities Explained","https://www.youtube.com/watch?v=GCEBhegMMM0","vid"],
@@ -500,7 +501,7 @@ const COURSE = {
       ["JensenMath: Trig Identities Worksheet 1",D("1btkUk39OIRFrLasp7nY-lx5O39eQFfDP"),"doc"],
       ["Answers",D("11t3dZDTblw1j75Go67FRoU2iXrcU_itJ"),"ans"],
     ]},
-    {d:50, iso:"2026-11-12", flag:"quiz", covers:"Current Topics + Solving Quadratics",
+    {d:51, iso:"2026-11-13", flag:"quiz", covers:"Current Topics + Solving Quadratics",
       topic:"", note:"", ans:"", extras:[
       ["Trig Ratio Problems",D("1UtuXf8SIydqxyEhRXWh8gJYygxAFJq9u"),"doc"],
       ["Answers",D("1V23DG9-vyNdrYrbfM0w_eU7Gr0e5-gDj"),"ans"],
@@ -508,7 +509,7 @@ const COURSE = {
       ["JensenMath: Trig Identities Worksheet 2",D("1_Zq7YLZjGikXs_2bWfJZ_aLD9HRfVSqc"),"doc"],
       ["Answers",D("1Ym7fZDItaqnbJZB0MpVCjQFjoyZf0369"),"ans"],
     ]},
-    {d:51, iso:"2026-11-13", topic:"Sine Law", num:"5.6",
+    {d:52, iso:"2026-11-16", topic:"Sine Law", num:"5.6",
       noteLabel:"Sine Law Blank Note & Practice Problems",
       note:D("1kmcnSOOZE49F0Eh7vxxoH4IH4pqlpCh4"),
       ans:"", /* key: D("1kC4N34yMs0L_hS70D407E7MTUPODJWVb") */ extras:[
@@ -516,7 +517,7 @@ const COURSE = {
       ["Sine & Cosine Law Practice",D("1WJqAjD2TKD4-8wVt3T7t3-G5s1ZiNFMs"),"doc"],
       ["Answers",D("1WO82PSsNxXRU0Ot3rT0bOmUuwQLhJZR1"),"ans"],
     ]},
-    {d:52, iso:"2026-11-16", topic:"The Ambiguous Case", num:"5.6",
+    {d:53, iso:"2026-11-17", topic:"The Ambiguous Case", num:"5.6",
       noteLabel:"Ambiguous Case Blank Note & Practice Problems",
       note:D("1Wl5M1cZZhd8iXy2aA0On6IaNcFqVGPuW"),
       ans:"", /* key: D("13chXM-KgNriX7tjDKpR1nI53OHckjT7D") */ extras:[
@@ -527,20 +528,19 @@ const COURSE = {
       ["JensenMath: Ambiguous Case Worksheet",D("1S_3Gu-SP1BkosVbrPacB5yemOugFe7ph"),"doc"],
       ["Answers",D("1ENBbUlYSjSiHU-64eMWL6-_FxFrGLHR2"),"ans"],
     ]},
-    {d:53, iso:"2026-11-17", flag:"pquiz", covers:"Current Topic + Vertex / Max-Min + Other Old Topic",
+    {d:54, iso:"2026-11-18", flag:"pquiz", covers:"Current Topic + Vertex / Max-Min + Other Old Topic",
       topic:"Cosine Law", num:"5.7",
       note:D("1H7wBP1bgGdNlU0x27DbTH_CjpO_Z8rDB"),
       ans:"", /* key: D("1B4c57Ch6TdROzg1FAtuPg90vCwMScvBq") */ extras:[
       ["Ms Havrot 5.7: The Cosine Law","https://www.youtube.com/watch?v=YR8xjSBBJaM","vid"],
     ]},
-    {d:54, iso:"2026-11-18", topic:"Trig in Three Dimensions", num:"5.8",
+    {d:55, iso:"2026-11-19", topic:"Trig in Three Dimensions", num:"5.8",
       note:D("1Lm2q_8kSlzWmP4gLes0VGumfxYNj18FK"),
       ans:"", /* key: D("14w96g6jLAE1RVDo-CK4hKI0wkCi7-LZs") */ extras:[
       ["Ms Havrot 5.8: 3-D Problems with Bearings","https://www.youtube.com/watch?v=V0kKrpqNBoE","vid"],
       ["JensenMath: Problems in 2-D and 3-D Worksheet",D("1rN-r8CkEAE7w8BCeih7BhJtY9AmcdHx_"),"doc"],
       ["Answers",D("14arJWRhR5WsXbhaYvXNw9IvVRTTyN-x0"),"ans"],
     ]},
-    {d:55, iso:"2026-11-19", topic:"Trig in Three Dimensions Practice", note:"", ans:"", extras:[]},
     {d:56, iso:"2026-11-20", topic:"Review",
       noteLabel:"Practice Test", ansLabel:"Answers", note:D("1YmFyG15V15N-aG1H_FALpolYAlev6g0X"), ans:"", /* key: D("1WwRJD6OKt3k1w7aGrLCEkpkefnTEoxCc") */ extras:[
       ["Ms Havrot: Unit 5 Review & Practice Test","https://www.youtube.com/watch?v=-WxwPhTrcZQ","vid"],

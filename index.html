@@ -241,8 +241,11 @@ header .sub{color:var(--t3);font-size:.88rem;margin-top:.35rem}
 .nocalc .scr{fill:var(--bg)}.nocalc .key{fill:var(--bg);opacity:.75}
 .nocalc .dead{stroke:currentColor;stroke-width:1.1;stroke-linecap:round;fill:none;opacity:1}
 .nocalc .xh{fill:none;stroke:var(--ans);stroke-width:1.2;stroke-linecap:round;transform-origin:60px 29px;opacity:0}
-.nocalc .shot{stroke:var(--ans);stroke-width:1.8;stroke-linecap:round;opacity:0}
-.nocalc .bang{fill:var(--ans);transform-origin:52px 24px;opacity:0;transform:scale(0)}
+.nocalc .shot{opacity:0}.nocalc .shot .bl{fill:var(--ans)}.nocalc .shot .tr{fill:var(--ans);opacity:.4}
+.nocalc .mz{fill:var(--ans);transform-origin:-6px 29px;opacity:0;transform:scale(0)}
+.nocalc .spk{stroke:var(--ans);stroke-width:1.1;stroke-linecap:round;transform-origin:52px 29px;opacity:0}
+.nocalc .hit{opacity:1}.nocalc .hit .hole{fill:var(--bg)}.nocalc .hit .crk{fill:none;stroke:var(--bg);stroke-width:.7;stroke-linecap:round;stroke-linejoin:round}
+.nocalc .bang{fill:var(--ans);transform-origin:52px 29px;opacity:0;transform:scale(0)}
 .nocalc .bang2{fill:var(--ans);transform-origin:62px 14px;opacity:0;transform:scale(0)}
 .nocalc .db{fill:var(--ans);opacity:0}
 .nocalc .ham{transform-origin:92px 46px;opacity:0;transform:translateX(40px) rotate(20deg)}
@@ -251,25 +254,29 @@ header .sub{color:var(--t3);font-size:.88rem;margin-top:.35rem}
 .nocalc .sh,.nocalc .db{transform-box:fill-box;transform-origin:center}
 .nocalc.go .fk{animation:nc-txt 8s linear 1}
 .nocalc.go .cal{animation:nc-cal 8s cubic-bezier(.4,0,.6,1) 1}
-.nocalc.go .dead{animation:nc-dead 8s linear 1}
+.nocalc.go .dead,.nocalc.go .hit{animation:nc-dead 8s linear 1}
 .nocalc.go .xh{animation:nc-xh 8s ease-out 1}
 .nocalc.go .shot{animation:nc-shot 8s linear 1}
+.nocalc.go .mz{animation:nc-mz 8s ease-out 1}
+.nocalc.go .spk{animation:nc-spk 8s ease-out 1}
 .nocalc.go .bang{animation:nc-bang 8s ease-out 1}
 .nocalc.go .db{animation:nc-db 8s ease-in 1}
 .nocalc.go.smash .fk{animation-name:nc-txt-sm}
 .nocalc.go.smash .cal{animation-name:nc-cal-sm}
-.nocalc.go.smash .dead{animation-name:nc-dead-sm}
-.nocalc.go.smash .xh,.nocalc.go.smash .shot,.nocalc.go.smash .bang,.nocalc.go.smash .db{animation:none}
+.nocalc.go.smash .dead,.nocalc.go.smash .hit{animation-name:nc-dead-sm}
+.nocalc.go.smash .xh,.nocalc.go.smash .shot,.nocalc.go.smash .mz,.nocalc.go.smash .spk,.nocalc.go.smash .bang,.nocalc.go.smash .db{animation:none}
 .nocalc.go.smash .ham{animation:nc-ham 8s linear 1}
 .nocalc.go.smash .bang2{animation:nc-bang2 8s linear 1}
 .nocalc.go.smash .sh{animation:nc-sh 8s linear 1}
 @keyframes nc-cal{0%,12%{transform:rotate(90deg)}36%{transform:rotate(6deg)}40%{transform:rotate(-5deg)}43%,55.5%{transform:rotate(0deg)}
-  56%{transform:rotate(-4deg) translate(1px,0)}61%{transform:rotate(96deg)}64%{transform:rotate(84deg)}66%,100%{transform:rotate(90deg)}}
+  55.9%{transform:translate(2.5px,0) rotate(0deg)}57%{transform:translate(1px,0) rotate(10deg)}61%{transform:rotate(96deg)}64%{transform:rotate(84deg)}66%,100%{transform:rotate(90deg)}}
 @keyframes nc-dead{0%,13%{opacity:1}14%,57%{opacity:0}58%,100%{opacity:1}}
 @keyframes nc-txt{0%,11%{opacity:1}19%,56%{opacity:0}59%,100%{opacity:1}}
 @keyframes nc-xh{0%,46%{opacity:0;transform:scale(2.4) rotate(-20deg)}50%{opacity:.9;transform:scale(1.3) rotate(0deg)}54%{opacity:.9;transform:scale(1)}55.5%,100%{opacity:0;transform:scale(1)}}
-@keyframes nc-shot{0%,53.8%{opacity:0;transform:translateX(0)}54%{opacity:1}55.5%{opacity:1;transform:translateX(62px)}55.6%,100%{opacity:0;transform:translateX(62px)}}
-@keyframes nc-bang{0%,55.4%{opacity:0;transform:scale(0)}56%{opacity:1;transform:scale(1.25) rotate(10deg)}58.5%{opacity:.7;transform:scale(.9) rotate(30deg)}60%,100%{opacity:0;transform:scale(1.4) rotate(40deg)}}
+@keyframes nc-shot{0%,53.5%{opacity:0;transform:translateX(0)}53.7%{opacity:1;transform:translateX(2px)}55.6%{opacity:1;transform:translateX(61px)}55.7%,100%{opacity:0;transform:translateX(61px)}}
+@keyframes nc-mz{0%,53.4%{opacity:0;transform:scale(0)}53.8%{opacity:1;transform:scale(1)}54.8%,100%{opacity:0;transform:scale(1.3)}}
+@keyframes nc-spk{0%,55.5%{opacity:0;transform:scale(.2)}56.3%{opacity:1;transform:scale(.85)}58.5%,100%{opacity:0;transform:scale(1.5)}}
+@keyframes nc-bang{0%,55.5%{opacity:0;transform:scale(0)}56%{opacity:1;transform:scale(1) rotate(10deg)}58%{opacity:.6;transform:scale(.7) rotate(30deg)}59.5%,100%{opacity:0;transform:scale(1.1) rotate(40deg)}}
 @keyframes nc-db{0%,55.4%{opacity:0;transform:translate(0,0)}56%{opacity:1}68%,100%{opacity:0;transform:translate(var(--dx),var(--dy)) rotate(260deg)}}
 /* The fifth cycle: up as usual, then three hammer blows (squash, squash, bits), the bits settle, and the calculator fades back in lying down */
 @keyframes nc-cal-sm{0%,12%{transform:rotate(90deg);opacity:1}36%{transform:rotate(6deg)}40%{transform:rotate(-5deg)}43%,53.5%{transform:rotate(0deg)}
@@ -604,10 +611,13 @@ function flagHTML(day){
 const NOCALC=`<div class="nocalc" role="img" aria-label="No calculator test"><svg viewBox="-2 0 124 48" aria-hidden="true">
 <g class="cal"><rect x="52" y="16" width="16" height="26" rx="2.5"/><rect class="scr" x="54.5" y="18.5" width="11" height="5.5" rx="1"/>
 <path class="dead" d="M57.5 20 l2 2.5 m0 -2.5 l-2 2.5 M60.6 20 l2 2.5 m0 -2.5 l-2 2.5"/>
+<g class="hit"><path class="crk" d="M53.2 28.2l3.4-2.4 1.6.6M53.2 29.8l3.8 2.2 1.2 2.6M54.6 29.1l4.4.5"/><circle class="hole" cx="52.9" cy="29" r="1.6"/></g>
 ${[0,1,2].map(r=>[0,1,2].map(c=>`<rect class="key" x="${54.6+c*3.7}" y="${26.6+r*4.3}" width="2.6" height="2.4" rx=".5"/>`).join("")).join("")}</g>
 <g class="xh"><circle cx="60" cy="29" r="9"/><path d="M60 16.5v4M60 37.5v4M47.5 29h4M68.5 29h4"/></g>
-<line class="shot" x1="-14" y1="24" x2="-5" y2="24"/>
-<path class="bang" d="M52 16.5l1.7 4.3 4.3-1.8-1.8 4.3 4.3 1.7-4.3 1.7 1.8 4.3-4.3-1.8-1.7 4.3-1.7-4.3-4.3 1.8 1.8-4.3-4.3-1.7 4.3-1.7-1.8-4.3 4.3 1.8z"/>
+<path class="mz" d="M-6 23.5l1.3 3.6 3.6-1.3-1.6 3.4 3.7 1.1-3.7 1.1 1.6 3.4-3.6-1.3-1.3 3.6-1.3-3.6-3.6 1.3 1.6-3.4-3.7-1.1 3.7-1.1-1.6-3.4 3.6 1.3z"/>
+<g class="shot"><polygon class="tr" points="-30,29 -14,27.9 -14,30.1"/><rect class="bl" x="-14" y="27.9" width="5.6" height="2.2" rx="1.1"/></g>
+<path class="spk" d="M52 29l-7-5M52 29l-9-1.5M52 29l-8 3M52 29l-5 6.5M52 29l-3.5-7.5"/>
+<path class="bang" d="M52 21.5l1.7 4.3 4.3-1.8-1.8 4.3 4.3 1.7-4.3 1.7 1.8 4.3-4.3-1.8-1.7 4.3-1.7-4.3-4.3 1.8 1.8-4.3-4.3-1.7 4.3-1.7-1.8-4.3 4.3 1.8z"/>
 <rect class="db" style="--dx:18px;--dy:-14px" x="54" y="23" width="2.6" height="2.4" rx=".5"/>
 <rect class="db" style="--dx:28px;--dy:4px" x="55" y="26" width="2.6" height="2.4" rx=".5"/>
 <rect class="db" style="--dx:12px;--dy:12px" x="53" y="29" width="2.6" height="2.4" rx=".5"/>

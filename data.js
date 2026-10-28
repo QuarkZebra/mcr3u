@@ -408,7 +408,7 @@ const COURSE = {
     ]},
     {d:39, iso:"2026-10-28", topic:"Transformations of Exponential Functions", num:"4.5",
       note:D("1sISi9NWWo76FwiXG-aa5Fu4JWCZCIyes"),
-      ans:"", /* key: D("1r1vTPJiULMHrXdctrm9yBDKNezT1rtYw") */ extras:[
+      ans:D("1r1vTPJiULMHrXdctrm9yBDKNezT1rtYw"), /* key: D("1r1vTPJiULMHrXdctrm9yBDKNezT1rtYw") */ extras:[
       ["Ms Havrot 4.6: Transformations of Exponential Functions","https://www.youtube.com/watch?v=3hafG0rPiYg","vid"],
       ["Graphing Using Transformations","https://www.youtube.com/watch?v=3sCF7c6G3Y8","vid"],
       ["JensenMath: Transformations Worksheet",D("1skYJ0XjVorYpTvrW_SncLN3Rx6tTXAFN"),"doc"],

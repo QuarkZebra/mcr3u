@@ -398,7 +398,7 @@ const COURSE = {
     {d:38, iso:"2026-10-27", flag:"pquiz", covers:"Current Topics + Radicals + Other Old Topic",
       topic:"Properties of Exponential Functions", num:"4.4",
       note:D("1jwNg2L39_9B8Q-dvTpMIt-VsOCz19iVq"),
-      ans:"", /* key: D("1iRLeHh85YyGHQvbgSuItbhXbBZdt_nDN") */ extras:[
+      ans:D("1iRLeHh85YyGHQvbgSuItbhXbBZdt_nDN"), /* key: D("1iRLeHh85YyGHQvbgSuItbhXbBZdt_nDN") */ extras:[
       ["Ms Havrot 4.5: Graphing Exponential Functions","https://www.youtube.com/watch?v=C0EsktjZIxE","vid"],
       ["Analysing Exponential Graphs","https://www.youtube.com/watch?v=fe1Hsqyetzk","vid"],
       ["Exponential Graph Analysis",D("1hN_LwGeCyfv3sA9Z4_8-PLEl63bIvZ_Q"),"doc"],

@@ -414,11 +414,11 @@ const COURSE = {
       ["JensenMath: Transformations Worksheet",D("1skYJ0XjVorYpTvrW_SncLN3Rx6tTXAFN"),"doc"],
       ["Answers",D("1jDDKWM7WgJZXqoC-NJ5AzgQnTXHtSvSP"),"ans"],
     ]},
-    /* d6 handout deliberately NOT posted — group investigation, no reading ahead.
-       Handout: D("16ObTGxzWqr7xAFMW3ioiZJt-l1KKcmR9") */
+    /* d6 handout held back until the day — group investigation, no reading ahead.
+       Posted 2026-10-29. Handout: D("16ObTGxzWqr7xAFMW3ioiZJt-l1KKcmR9") */
     {d:40, iso:"2026-10-29", flag:"pquiz", covers:"Current Topics + Solving Quadratics + Other Old Topic",
       topic:"Modelling Investigation",
-      noteLabel:"Investigation Handout", note:"", ans:"", extras:[]},
+      noteLabel:"Investigation Handout", note:D("16ObTGxzWqr7xAFMW3ioiZJt-l1KKcmR9"), ans:"", extras:[]},
     {d:41, iso:"2026-10-30", topic:"Applications: Growth & Decay", num:"4.6",
       note:D("1Bltk9GFdpJMoE68tflyyxm0AbkI-JLfQ"),
       ans:"", /* key: D("1Ag-CTCxd7JZhg_LMG0NsZAKsYcwfVrna") */ extras:[

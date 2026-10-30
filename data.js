@@ -421,7 +421,7 @@ const COURSE = {
       noteLabel:"Investigation Handout", note:D("16ObTGxzWqr7xAFMW3ioiZJt-l1KKcmR9"), ans:"", extras:[]},
     {d:41, iso:"2026-10-30", topic:"Applications: Growth & Decay", num:"4.6",
       note:D("1Bltk9GFdpJMoE68tflyyxm0AbkI-JLfQ"),
-      ans:"", /* key: D("1Ag-CTCxd7JZhg_LMG0NsZAKsYcwfVrna") */ extras:[
+      ans:D("1Ag-CTCxd7JZhg_LMG0NsZAKsYcwfVrna"), /* key: D("1Ag-CTCxd7JZhg_LMG0NsZAKsYcwfVrna") */ extras:[
       ["Ms Havrot 4.7: Growth, Decay & Applications","https://www.youtube.com/watch?v=K4J1N1mx1ts","vid"],
       ["Exponential Models Practice",D("1iOUDIFhIdVBoeVBCh8W5WEjZZbsAzLEw"),"doc"],
       ["Equation from a Table of Values",D("1hcaeMgf-KO6BZk2HGCZ6OFfV6alVPG0a"),"doc"],

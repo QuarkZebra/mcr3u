@@ -439,7 +439,7 @@ const COURSE = {
     ]},
     {d:43, iso:"2026-11-03", topic:"Solving Exponential Equations", num:"4.7",
       note:D("1cLyX8-LR5HL_EJzUjWTD-HgvFv41nRvj"),
-      ans:"", /* key: D("1XRAbGoiXEUgghABdDVzgQd5x8ywdwMcC") */ extras:[]},
+      ans:D("1XRAbGoiXEUgghABdDVzgQd5x8ywdwMcC"), /* key: D("1XRAbGoiXEUgghABdDVzgQd5x8ywdwMcC") */ extras:[]},
     {d:44, iso:"2026-11-04", topic:"Review",
       noteLabel:"Practice Test", ansLabel:"Answers", note:D("1szeU8lZZNA6vErQ59f0zuupeLfIhfSFH"), ans:"", /* key: D("1LlGbt85NeAnPE7d_ek-xsxpvtRJHArJB") */ extras:[
       ["Ms Havrot: Chapter 4 Practice Test (Part B)","https://www.youtube.com/watch?v=hNfJdisuCaQ","vid"],

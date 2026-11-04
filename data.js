@@ -441,7 +441,7 @@ const COURSE = {
       note:D("1cLyX8-LR5HL_EJzUjWTD-HgvFv41nRvj"),
       ans:D("1XRAbGoiXEUgghABdDVzgQd5x8ywdwMcC"), /* key: D("1XRAbGoiXEUgghABdDVzgQd5x8ywdwMcC") */ extras:[]},
     {d:44, iso:"2026-11-04", topic:"Review",
-      noteLabel:"Practice Test", ansLabel:"Answers", note:D("1szeU8lZZNA6vErQ59f0zuupeLfIhfSFH"), ans:"", /* key: D("1LlGbt85NeAnPE7d_ek-xsxpvtRJHArJB") */ extras:[
+      noteLabel:"Practice Test", ansLabel:"Answers", note:D("1szeU8lZZNA6vErQ59f0zuupeLfIhfSFH"), ans:D("1LlGbt85NeAnPE7d_ek-xsxpvtRJHArJB"), /* key: D("1LlGbt85NeAnPE7d_ek-xsxpvtRJHArJB") */ extras:[
       ["Ms Havrot: Chapter 4 Practice Test (Part B)","https://www.youtube.com/watch?v=hNfJdisuCaQ","vid"],
       ["Review Questions",D("1iHVFMs2eDE0w-e4U_vxM1yoODDl7wuMx"),"doc"],
       ["Answers",D("1i7mrSmWO20Ers4DjTypBjGM9Iszyr6-s"),"ans"],

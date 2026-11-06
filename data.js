@@ -38,7 +38,7 @@
 
    To Save Time:
 
-   git add . && git commit -m "3.7 key add" && git push origin main
+   git add . && git commit -m "5.1 key added" && git push origin main
    ═══════════════════════════════════════════════════════════ */
 
 const D = id => `https://drive.google.com/file/d/${id}/view`;
@@ -458,7 +458,7 @@ const COURSE = {
   {name:"Trig Ratios", days:[
     {d:46, iso:"2026-11-06", topic:"Trig Ratios of Acute Angles", num:"5.1",
       note:D("1_vWtR_Uz2jkG6hU4XVw7xPhdutM4tZhp"),
-      ans:"", /* key: D("1tZVW8AoyRSDMEUeXbh8RQ3__Os77W6fj") */ extras:[
+      ans:D("1tZVW8AoyRSDMEUeXbh8RQ3__Os77W6fj"), /* key: D("1tZVW8AoyRSDMEUeXbh8RQ3__Os77W6fj") */ extras:[
       ["Unit 5 Prerequisite Skills (answers included)",D("1Jy0yY2PcGE4QAfkfB6Z1Za7YYSe05EDK"),"skills"],
       ["Ms Havrot 5.1: Primary & Reciprocal Trig Ratios","https://www.youtube.com/watch?v=YM2TLmh4QAE","vid"],
       ["SOH CAH TOA Explained","https://www.youtube.com/watch?v=5tp74g4N8EY","vid"],

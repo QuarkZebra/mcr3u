@@ -507,15 +507,17 @@ const COURSE = {
       ["JensenMath: Trig Identities Worksheet 1",D("1btkUk39OIRFrLasp7nY-lx5O39eQFfDP"),"doc"],
       ["Answers",D("11t3dZDTblw1j75Go67FRoU2iXrcU_itJ"),"ans"],
     ]},
-    {d:51, iso:"2026-11-13", flag:"quiz", covers:"Current Topics + Solving Quadratics",
-      topic:"", note:"", ans:"", extras:[
+    {d:51, iso:"2026-11-13", flag:"pquiz", covers:"5.1–5.5 + Solving Quadratics",
+      topic:"Review", note:"", ans:"", extras:[
       ["Trig Ratio Problems",D("1UtuXf8SIydqxyEhRXWh8gJYygxAFJq9u"),"doc"],
       ["Answers",D("1V23DG9-vyNdrYrbfM0w_eU7Gr0e5-gDj"),"ans"],
       ["More Trig Identities Practice",D("1dnBfuyWuYkf607lsodaeGRQwxKUEPLu9"),"doc"],
       ["JensenMath: Trig Identities Worksheet 2",D("1_Zq7YLZjGikXs_2bWfJZ_aLD9HRfVSqc"),"doc"],
       ["Answers",D("1Ym7fZDItaqnbJZB0MpVCjQFjoyZf0369"),"ans"],
     ]},
-    {d:52, iso:"2026-11-16", topic:"Sine Law", num:"5.6",
+    {d:52, iso:"2026-11-16", flag:"test", covers:"Mid-Unit: 5.1–5.5 + Solving Quadratics", nocalc:true,
+      topic:"", extras:[]},
+    {d:53, iso:"2026-11-17", topic:"Sine Law", num:"5.6",
       noteLabel:"Sine Law Blank Note & Practice Problems",
       note:D("1kmcnSOOZE49F0Eh7vxxoH4IH4pqlpCh4"),
       ans:"", /* key: D("1kC4N34yMs0L_hS70D407E7MTUPODJWVb") */ extras:[
@@ -523,7 +525,7 @@ const COURSE = {
       ["Sine & Cosine Law Practice",D("1WJqAjD2TKD4-8wVt3T7t3-G5s1ZiNFMs"),"doc"],
       ["Answers",D("1WO82PSsNxXRU0Ot3rT0bOmUuwQLhJZR1"),"ans"],
     ]},
-    {d:53, iso:"2026-11-17", topic:"The Ambiguous Case", num:"5.6",
+    {d:54, iso:"2026-11-18", topic:"The Ambiguous Case", num:"5.6",
       noteLabel:"Ambiguous Case Blank Note & Practice Problems",
       note:D("1Wl5M1cZZhd8iXy2aA0On6IaNcFqVGPuW"),
       ans:"", /* key: D("13chXM-KgNriX7tjDKpR1nI53OHckjT7D") */ extras:[
@@ -534,32 +536,32 @@ const COURSE = {
       ["JensenMath: Ambiguous Case Worksheet",D("1S_3Gu-SP1BkosVbrPacB5yemOugFe7ph"),"doc"],
       ["Answers",D("1ENBbUlYSjSiHU-64eMWL6-_FxFrGLHR2"),"ans"],
     ]},
-    {d:54, iso:"2026-11-18", flag:"pquiz", covers:"Current Topic + Vertex / Max-Min + Other Old Topic",
+    {d:55, iso:"2026-11-19", flag:"pquiz", covers:"Current Topic + Vertex / Max-Min + Other Old Topic",
       topic:"Cosine Law", num:"5.7",
       note:D("1H7wBP1bgGdNlU0x27DbTH_CjpO_Z8rDB"),
       ans:"", /* key: D("1B4c57Ch6TdROzg1FAtuPg90vCwMScvBq") */ extras:[
       ["Ms Havrot 5.7: The Cosine Law","https://www.youtube.com/watch?v=YR8xjSBBJaM","vid"],
     ]},
-    {d:55, iso:"2026-11-19", topic:"Trig in Three Dimensions", num:"5.8",
+    {d:56, iso:"2026-11-20", topic:"Trig in Three Dimensions", num:"5.8",
       note:D("1Lm2q_8kSlzWmP4gLes0VGumfxYNj18FK"),
       ans:"", /* key: D("14w96g6jLAE1RVDo-CK4hKI0wkCi7-LZs") */ extras:[
       ["Ms Havrot 5.8: 3-D Problems with Bearings","https://www.youtube.com/watch?v=V0kKrpqNBoE","vid"],
       ["JensenMath: Problems in 2-D and 3-D Worksheet",D("1rN-r8CkEAE7w8BCeih7BhJtY9AmcdHx_"),"doc"],
       ["Answers",D("14arJWRhR5WsXbhaYvXNw9IvVRTTyN-x0"),"ans"],
     ]},
-    {d:56, iso:"2026-11-20", topic:"Review",
+    {d:57, iso:"2026-11-24", topic:"Review",
       noteLabel:"Practice Test", ansLabel:"Answers", note:D("1YmFyG15V15N-aG1H_FALpolYAlev6g0X"), ans:"", /* key: D("1WwRJD6OKt3k1w7aGrLCEkpkefnTEoxCc") */ extras:[
       ["Ms Havrot: Unit 5 Review & Practice Test","https://www.youtube.com/watch?v=-WxwPhTrcZQ","vid"],
       ["JensenMath: Trig Geometry Unit Review",D("1e2Yfwaqq8CdB-aGG1mA1RarEB0_YMXMt"),"doc"],
       ["Answers",D("1bUOX200fks4m3DeC3dmU-dlkUbKe1TDK"),"ans"],
     ]},
-    {d:57, iso:"2026-11-24", flag:"test", covers:"Unit 5 + Transformations of Functions", nocalc:true,
+    {d:58, iso:"2026-11-25", flag:"test", covers:"5.6–5.8 + Transformations of Functions",
       topic:"", extras:[]},
   ]},
 
   /* ── UNIT 6 ─────────────────────────────────────────────── */
   {name:"Sinusoidal Functions", days:[
-    {d:58, iso:"2026-11-25", topic:"Periodic Functions & Their Properties", num:"6.1",
+    {d:59, iso:"2026-11-26", topic:"Periodic Functions & Their Properties", num:"6.1",
       note:D("1hhz84UQgPyBifCy6oGUGOrPbrCsRlsHo"),
       ans:"", /* key: D("1Wkixpm1SsP6160sgRJvKm9OKsLQpqoMY") */ extras:[
       ["Unit 6 Prerequisite Skills (answers included)",D("1KQb59eHXBgw3rdH-Aveqs-eMiB80SLve"),"skills"],
@@ -567,7 +569,7 @@ const COURSE = {
       ["JensenMath: Periodic Behaviour Worksheet",D("1FGd-zFEkhf1Hi1AUOi8PXPeTMV2xprwc"),"doc"],
       ["Answers",D("18TMmbexjshqO8bC2gFQ1Ep0JYArikrK6"),"ans"],
     ]},
-    {d:59, iso:"2026-11-26", topic:"Properties of Sinusoidal Functions", num:"6.2",
+    {d:60, iso:"2026-11-27", topic:"Properties of Sinusoidal Functions", num:"6.2",
       note:D("1v2gLoEu8tPO0Mz9aZRzzVnAO0cD6Q0ud"),
       ans:"", /* key: D("1s4dxDOnl7H_pqvDgVUJfq0FEnRtWijLw") */ extras:[
       ["Ms Havrot 6.2: y = sin x and y = cos x","https://www.youtube.com/watch?v=ki4wmo_j8ls","vid"],
@@ -576,14 +578,14 @@ const COURSE = {
       ["JensenMath: Graphing Sine & Cosine Worksheet",D("1I9lIdbNpw55CX-l7iUzLm7QCEJTQOLey"),"doc"],
       ["Answers",D("1dDoiPHhMdrkX7l6zr7u9i7YqKp8Wa35j"),"ans"],
     ]},
-    {d:60, iso:"2026-11-27", topic:"Interpreting Sinusoidal Functions", num:"6.3",
+    {d:61, iso:"2026-11-30", topic:"Interpreting Sinusoidal Functions", num:"6.3",
       note:D("1NBHij19eME0Wajs60bfg43PiEt0eF-ZV"),
       ans:"", /* key: D("16wPzQ09Iw1yKDypip29zc0TlgoShvEyJ") */ extras:[
       ["Ms Havrot 6.3: Interpreting Sinusoidal Functions","https://www.youtube.com/watch?v=-LGqUsObWrw","vid"],
       ["Analysing Graphs Worksheet",D("1a9Gpby6yNzrEUGZKUvFp2Wwsc_H7sKaJ"),"doc"],
       ["Answers",D("1aTt5_xunUNjKr-ILTwixvnvUvjclNjNO"),"ans"],
     ]},
-    {d:61, iso:"2026-11-30", flag:"pquiz", covers:"Current Topics + Exact Trig Values + Other Old Topic",
+    {d:62, iso:"2026-12-01", flag:"pquiz", covers:"Current Topics + Exact Trig Values + Other Old Topic",
       topic:"Exploring Transformations", num:"6.4",
       note:D("12BLJg_twdcynJa3b9xpwdl3FrkwfKYHz"),
       ans:"", /* key: D("1bsIGdWRx54oJf4lNkBjqp9eHaJmS7tgH") */ extras:[
@@ -591,7 +593,7 @@ const COURSE = {
       ["Transformation Investigation",D("1_HHLDNsm1ZMnPgSspkeB6qa8wPcVhCYS"),"doc"],
       ["Answers",D("1_o0AhFRC_BxzmKyPv9hKThQSRQCE8Zxy"),"ans"],
     ]},
-    {d:62, iso:"2026-12-01", topic:"Graphing Sinusoidal Functions", num:"6.5",
+    {d:63, iso:"2026-12-02", topic:"Graphing Sinusoidal Functions", num:"6.5",
       note:D("1lnWLQtPaDderivvW9rFTvCKbKS2coIbB"),
       ans:"", /* key: D("1VNLqhVyKFOHONKmKvDoUWuHw9Q1avCpD") */ extras:[
       ["Ms Havrot 6.5: Sketching with Transformations","https://www.youtube.com/watch?v=emoBZSxrphw","vid"],
@@ -600,7 +602,7 @@ const COURSE = {
       ["JensenMath: Graph from Equation Worksheet",D("1iSPxROxe20QJugUVmkPcGcfccmUG2HVF"),"doc"],
       ["Answers",D("1vHnbBjer9Rc6z6_G1E0lMWJtuOZwYecD"),"ans"],
     ]},
-    {d:63, iso:"2026-12-02", topic:"Equations from Graphs", num:"6.5",
+    {d:64, iso:"2026-12-03", topic:"Equations from Graphs", num:"6.5",
       noteLabel:"Equations from Graphs Blank Note & Practice Problems",
       note:D("17NMuA6ynW8ZVMwWXfOrRN0J4Xgf7sCy8"),
       ans:"", /* key: D("1fwPkd9l9Pk23WXmN4PHbfLS3zSrR6Atp") */ extras:[
@@ -609,15 +611,13 @@ const COURSE = {
       ["JensenMath: Equation from Graph Worksheet",D("1L5_Cz5vFBBT_mAa-zbr3Z7U7JhWSBLJ1"),"doc"],
       ["Answers",D("1uh6FFljvAUX30YPq5eLtsV9Ka7roVs08"),"ans"],
     ]},
-    {d:64, iso:"2026-12-03", flag:"quiz", covers:"Current Topics + Exponential Growth/Decay",
-      topic:"",
-      noteLabel:"Practice Quiz", ansLabel:"Answers", note:"", ans:"", extras:[
-      ["Ms Havrot: Trig Function Practice Quiz","https://www.youtube.com/watch?v=DGqkffa6RCM","vid"],
-    ]},
     /* d8 handout deliberately NOT posted — group investigation, no reading ahead.
        Handout: D("16qpkhwJzZM2KG0rRbg-ArrKlwQwkysm_") */
-    {d:65, iso:"2026-12-04", topic:"Modelling Investigation",
-      noteLabel:"Investigation Handout", note:"", ans:"", extras:[]},
+    {d:65, iso:"2026-12-04", flag:"quiz", covers:"Current Topics + Exponential Growth/Decay",
+      topic:"Modelling Investigation",
+      noteLabel:"Investigation Handout", note:"", ans:"", extras:[
+      ["Ms Havrot: Trig Function Practice Quiz","https://www.youtube.com/watch?v=DGqkffa6RCM","vid"],
+    ]},
     {d:66, iso:"2026-12-07", topic:"Solving Problems with Sinusoidal Models", num:"6.7",
       note:D("164tuZ7p9urzrLM2oGZO-CVZbBGZDzwt5"),
       ans:"", /* key: D("1xrFjPCTYSPJ857ViHSrHaJw5XfmQYlqH") */ extras:[

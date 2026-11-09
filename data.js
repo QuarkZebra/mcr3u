@@ -469,7 +469,7 @@ const COURSE = {
     ]},
     {d:47, iso:"2026-11-09", topic:"Special Angles", num:"5.2",
       note:D("1K_NRqUJimp-XPG0h_GGSkUG7jsx2-WSM"),
-      ans:"", /* key: D("1QEmlHCmLItpgeO6YxjgNYpPJkA0VCxRX") */ extras:[
+      ans:D("1QEmlHCmLItpgeO6YxjgNYpPJkA0VCxRX"), /* key: D("1QEmlHCmLItpgeO6YxjgNYpPJkA0VCxRX") */ extras:[
       ["Ms Havrot 5.2: Exact Values with Special Triangles","https://www.youtube.com/watch?v=oABJcKscW08","vid"],
       ["Special Triangle Practice",D("1VqVdKfrZEG7ypRrR87jrzLtY9UkpllSa"),"doc"],
       ["Answers",D("1VpHalqIgobhpCmHbMe8h1TLHXwy_i6ek"),"ans"],

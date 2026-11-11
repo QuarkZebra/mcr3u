@@ -479,7 +479,7 @@ const COURSE = {
     ]},
     {d:48, iso:"2026-11-10", topic:"Angles Beyond 90°", num:"5.3",
       note:D("1c6ajJ0q2IAgaqUwK2QsVc4waz_B1hBzP"),
-      ans:"", /* key: D("1RrQnEIFZabl9rck_nAmq_-eXbamHWleK") */ extras:[
+      ans:D("1RrQnEIFZabl9rck_nAmq_-eXbamHWleK"), /* key: D("1RrQnEIFZabl9rck_nAmq_-eXbamHWleK") */ extras:[
       ["Ms Havrot 5.3: Trig Ratios for Angles Greater than 90 degrees","https://www.youtube.com/watch?v=H9dSvqUkDnE","vid"],
       ["Unit Circle Simulation (PhET)","https://phet.colorado.edu/sims/html/trig-tour/latest/trig-tour_en.html","doc"],
       ["CAST Rule Practice",D("1XcA6A0MfLydHePZPzM7qLAZe2ehbD8YH"),"doc"],

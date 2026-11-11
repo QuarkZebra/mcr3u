@@ -490,7 +490,7 @@ const COURSE = {
     {d:49, iso:"2026-11-11", flag:"pquiz", covers:"Current Topics + Radicals + Other Old Topic",
       topic:"Trig Ratios for Any Angle", num:"5.4",
       note:D("1-luPpRhDQNfP91DofFLVBB5YVCSSMe-S"),
-      ans:"", /* key: D("15ICBZzKaFyF035RTsFO44EQ9u-vX4EKv") */ extras:[
+      ans:D("15ICBZzKaFyF035RTsFO44EQ9u-vX4EKv"), /* key: D("15ICBZzKaFyF035RTsFO44EQ9u-vX4EKv") */ extras:[
       ["Ms Havrot 5.4: Trig Ratios Between 0 and 360 degrees","https://www.youtube.com/watch?v=KCu9zQ36kEk","vid"],
       ["Unit Circle Practice",D("1W9_vIVdn6b28G0y2V3f0Gon4wPrV4Ac_"),"doc"],
       ["JensenMath: Solving Trig Equations Worksheet",D("1DwRcb4cVGADrXKoaHJCB6nULAkDrRSgB"),"doc"],

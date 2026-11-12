@@ -498,7 +498,7 @@ const COURSE = {
     ]},
     {d:50, iso:"2026-11-12", topic:"Trig Identities", num:"5.5",
       note:D("13o-EtHxGXVAhepHVOgr8F69W1cni52oL"),
-      ans:"", /* key: D("1mpIndCEUYAk3MOn7nSwhxdXMfYQgMl7V") */ extras:[
+      ans:D("1mpIndCEUYAk3MOn7nSwhxdXMfYQgMl7V"), /* key: D("1mpIndCEUYAk3MOn7nSwhxdXMfYQgMl7V") */ extras:[
       ["Ms Havrot 5.5: Trigonometric Identities Explained","https://www.youtube.com/watch?v=GCEBhegMMM0","vid"],
       ["Ms Havrot: Trig Identities Made Easy","https://www.youtube.com/watch?v=c0wsJWgACoI","vid"],
       ["Khan: Using Pythagorean Identities","https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:trig/x9e81a4f98389efdf:using-trig-id/v/examples-using-pythagorean-identities-to-simplify-trigonometric-expressions","vid"],

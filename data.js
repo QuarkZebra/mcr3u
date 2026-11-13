@@ -509,7 +509,7 @@ const COURSE = {
     ]},
     {d:51, iso:"2026-11-13", flag:"pquiz", covers:"5.1–5.5",
       topic:"Review",
-      noteLabel:"Mid-Unit Practice Test", ansLabel:"Answers", note:D("1jTCfeLkm5pdEp6IOxLdf2JKJe6xAyT_S"), ans:"", /* key: D("1HKfKD9HRna1f6MVTbeX2q9h2YoKrUueN") */ extras:[
+      noteLabel:"Mid-Unit Practice Test", ansLabel:"Answers", note:D("1jTCfeLkm5pdEp6IOxLdf2JKJe6xAyT_S"), ans:D("1HKfKD9HRna1f6MVTbeX2q9h2YoKrUueN"), /* key: D("1HKfKD9HRna1f6MVTbeX2q9h2YoKrUueN") */ extras:[
       ["Trig Ratio Problems",D("1UtuXf8SIydqxyEhRXWh8gJYygxAFJq9u"),"doc"],
       ["Answers",D("1V23DG9-vyNdrYrbfM0w_eU7Gr0e5-gDj"),"ans"],
       ["More Trig Identities Practice",D("1dnBfuyWuYkf607lsodaeGRQwxKUEPLu9"),"doc"],

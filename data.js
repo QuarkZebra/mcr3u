@@ -516,7 +516,7 @@ const COURSE = {
       ["JensenMath: Trig Identities Worksheet 2",D("1_Zq7YLZjGikXs_2bWfJZ_aLD9HRfVSqc"),"doc"],
       ["Answers",D("1Ym7fZDItaqnbJZB0MpVCjQFjoyZf0369"),"ans"],
     ]},
-    {d:52, iso:"2026-11-16", flag:"test", covers:"Mid-Unit: 5.1–5.5 + Solving Quadratics", nocalc:true,
+    {d:52, iso:"2026-11-16", flag:"test", covers:"Mid-Unit: 5.1–5.5", nocalc:true,
       topic:"", extras:[]},
     {d:53, iso:"2026-11-17", topic:"Sine Law", num:"5.6",
       noteLabel:"Sine Law Blank Note & Practice Problems",

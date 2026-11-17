@@ -521,7 +521,7 @@ const COURSE = {
     {d:53, iso:"2026-11-17", topic:"Sine Law", num:"5.6",
       noteLabel:"Sine Law Blank Note & Practice Problems",
       note:D("1kmcnSOOZE49F0Eh7vxxoH4IH4pqlpCh4"),
-      ans:"", /* key: D("1kC4N34yMs0L_hS70D407E7MTUPODJWVb") */ extras:[
+      ans:D("1kC4N34yMs0L_hS70D407E7MTUPODJWVb"), /* key: D("1kC4N34yMs0L_hS70D407E7MTUPODJWVb") */ extras:[
       ["Ms Havrot 5.6: The Sine Law","https://www.youtube.com/watch?v=goHdnHnW0sk","vid"],
       ["Sine & Cosine Law Practice",D("1WJqAjD2TKD4-8wVt3T7t3-G5s1ZiNFMs"),"doc"],
       ["Answers",D("1WO82PSsNxXRU0Ot3rT0bOmUuwQLhJZR1"),"ans"],

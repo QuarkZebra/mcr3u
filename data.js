@@ -529,7 +529,7 @@ const COURSE = {
     {d:54, iso:"2026-11-18", topic:"The Ambiguous Case", num:"5.6",
       noteLabel:"Ambiguous Case Blank Note & Practice Problems",
       note:D("1Wl5M1cZZhd8iXy2aA0On6IaNcFqVGPuW"),
-      ans:"", /* key: D("13chXM-KgNriX7tjDKpR1nI53OHckjT7D") */ extras:[
+      ans:D("13chXM-KgNriX7tjDKpR1nI53OHckjT7D"), /* key: D("13chXM-KgNriX7tjDKpR1nI53OHckjT7D") */ extras:[
       ["The Ambiguous Case, Worked","https://www.youtube.com/watch?v=RCyjglaJo5w","vid"],
       ["Ambiguous Case Worksheet",D("1d1rFfGRTuhshg9Ez2ENU_KYoqNQOKKoL"),"doc"],
       ["Answers",D("1d3Fs6z9s3zVJfZvwXZAN_vyLw56QaUfo"),"ans"],

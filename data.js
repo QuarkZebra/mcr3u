@@ -545,7 +545,7 @@ const COURSE = {
     ]},
     {d:56, iso:"2026-11-20", topic:"Trig in Three Dimensions", num:"5.8",
       note:D("1Lm2q_8kSlzWmP4gLes0VGumfxYNj18FK"),
-      ans:"", /* key: D("14w96g6jLAE1RVDo-CK4hKI0wkCi7-LZs") */ extras:[
+      ans:D("14w96g6jLAE1RVDo-CK4hKI0wkCi7-LZs"), /* key: D("14w96g6jLAE1RVDo-CK4hKI0wkCi7-LZs") */ extras:[
       ["Ms Havrot 5.8: 3-D Problems with Bearings","https://www.youtube.com/watch?v=V0kKrpqNBoE","vid"],
       ["JensenMath: Problems in 2-D and 3-D Worksheet",D("1rN-r8CkEAE7w8BCeih7BhJtY9AmcdHx_"),"doc"],
       ["Answers",D("14arJWRhR5WsXbhaYvXNw9IvVRTTyN-x0"),"ans"],

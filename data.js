@@ -540,7 +540,7 @@ const COURSE = {
     {d:55, iso:"2026-11-19", flag:"pquiz", covers:"Current Topic + Vertex / Max-Min + Other Old Topic",
       topic:"Cosine Law", num:"5.7",
       note:D("1H7wBP1bgGdNlU0x27DbTH_CjpO_Z8rDB"),
-      ans:"", /* key: D("1B4c57Ch6TdROzg1FAtuPg90vCwMScvBq") */ extras:[
+      ans:D("1B4c57Ch6TdROzg1FAtuPg90vCwMScvBq"), /* key: D("1B4c57Ch6TdROzg1FAtuPg90vCwMScvBq") */ extras:[
       ["Ms Havrot 5.7: The Cosine Law","https://www.youtube.com/watch?v=YR8xjSBBJaM","vid"],
     ]},
     {d:56, iso:"2026-11-20", topic:"Trig in Three Dimensions", num:"5.8",

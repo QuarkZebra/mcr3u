@@ -553,6 +553,8 @@ const COURSE = {
     {d:57, iso:"2026-11-24", topic:"Review",
       noteLabel:"Practice Test", ansLabel:"Answers", note:D("1YmFyG15V15N-aG1H_FALpolYAlev6g0X"), ans:D("1WwRJD6OKt3k1w7aGrLCEkpkefnTEoxCc"), /* key: D("1WwRJD6OKt3k1w7aGrLCEkpkefnTEoxCc") */ extras:[
       ["Unit 5 Summary",D("1AHjjUvOuVDEh8TvT4Mw3RdsTiMt79DMB"),"summary"],
+      ["Core Concepts Review",D("18LmnIf1liiBWpjjIPmtjC2T0fFtiKuz2"),"skills"],
+      ["Solutions",D("1K-2ziqNKaKPwS4bsRliqdW8jGI1n0twv"),"ans"],
       ["Ms Havrot: Unit 5 Review & Practice Test","https://www.youtube.com/watch?v=-WxwPhTrcZQ","vid"],
       ["JensenMath: Trig Geometry Unit Review",D("1e2Yfwaqq8CdB-aGG1mA1RarEB0_YMXMt"),"doc"],
       ["Answers",D("1bUOX200fks4m3DeC3dmU-dlkUbKe1TDK"),"ans"],
@@ -637,6 +639,7 @@ const COURSE = {
     {d:68, iso:"2026-12-09", topic:"Review",
       noteLabel:"Practice Test", ansLabel:"Answers", note:D("18ohBKyhAnMsWkDRVbSolH26yTrAw-tT_"), ans:"", /* key: D("1aeGCmBw0K8wxfGORpJz9GznJVR6azOxP") */ extras:[
       /* summary: ["Unit 6 Summary",D("1gsakFdz-b2OBAf_Acm1FmLxKkbWslLld"),"summary"], */
+      /* core: ["Core Concepts Review",D("1ATK3HQaEYue0qq03zGG5NP-RkFdY15uO"),"skills"], ["Solutions",D("1mDGnh3gV11Ox0MWEVnPi_2GRifUiOM6n"),"ans"], */
       ["Ms Havrot: Unit 6 Practice Test","https://www.youtube.com/watch?v=FUaJhcVd52o","vid"],
       ["JensenMath: Trig Functions Unit Review",D("1-_j8rmJXIIjAsNDAqK_5A_xed03M_no_"),"doc"],
       ["Answers",D("1FkyAkDFksxttmyI3zPEk-6sb_NJ9_ZEr"),"ans"],
@@ -743,6 +746,7 @@ const COURSE = {
     ]},
     {d:84, iso:"2027-01-14", topic:"Review",
       noteLabel:"Practice Test", ansLabel:"Answers", note:D("1WAeLWHTTRsYLKWdEIdEXVfYBihFUlMPM"), ans:"", /* key: D("1qQ32cnTPEm4Xvr9ZFN0X6ZctLWT75OZT") */ extras:[
+      /* core: ["Core Concepts Review",D("1FunCbJmZI8Cwl3HMg43pESM8VD6eV8io"),"skills"], ["Solutions",D("1FPQFDakTAwSi61Fwir7uD7mCmV6_KKOf"),"ans"], */
       ["Ms Havrot: Functions 11 (full course playlist)","https://www.youtube.com/playlist?list=PLGinkJ_ZMO2HB1X2BhOiZE6xy99-zE-_b","vid"],
       ["JensenMath: Discrete Functions Unit Review",D("1xqNZggVu-J53CUDbkf7unqvMtKZDeb-G"),"doc"],
       ["Answers",D("12EFq4uelsxk2GsaUmAlfOxRqzWvqJJ5D"),"ans"],

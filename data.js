@@ -604,7 +604,7 @@ const COURSE = {
       ["JensenMath: Graph from Equation Worksheet",D("1iSPxROxe20QJugUVmkPcGcfccmUG2HVF"),"doc"],
       ["Answers",D("1vHnbBjer9Rc6z6_G1E0lMWJtuOZwYecD"),"ans"],
     ]},
-    {d:64, iso:"2026-12-03", topic:"Equations from Graphs", num:"6.5",
+    {d:64, iso:"2026-12-03", topic:"Equations from Graphs", num:"6.6",
       noteLabel:"Equations from Graphs Blank Note & Practice Problems",
       note:D("17NMuA6ynW8ZVMwWXfOrRN0J4Xgf7sCy8"),
       ans:"", /* key: D("1fwPkd9l9Pk23WXmN4PHbfLS3zSrR6Atp") */ extras:[

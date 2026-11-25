@@ -636,6 +636,7 @@ const COURSE = {
     ]},
     {d:68, iso:"2026-12-09", topic:"Review",
       noteLabel:"Practice Test", ansLabel:"Answers", note:D("18ohBKyhAnMsWkDRVbSolH26yTrAw-tT_"), ans:"", /* key: D("1aeGCmBw0K8wxfGORpJz9GznJVR6azOxP") */ extras:[
+      /* summary: ["Unit 6 Summary",D("1gsakFdz-b2OBAf_Acm1FmLxKkbWslLld"),"summary"], */
       ["Ms Havrot: Unit 6 Practice Test","https://www.youtube.com/watch?v=FUaJhcVd52o","vid"],
       ["JensenMath: Trig Functions Unit Review",D("1-_j8rmJXIIjAsNDAqK_5A_xed03M_no_"),"doc"],
       ["Answers",D("1FkyAkDFksxttmyI3zPEk-6sb_NJ9_ZEr"),"ans"],

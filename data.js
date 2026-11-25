@@ -460,6 +460,8 @@ const COURSE = {
       note:D("1_vWtR_Uz2jkG6hU4XVw7xPhdutM4tZhp"),
       ans:D("1tZVW8AoyRSDMEUeXbh8RQ3__Os77W6fj"), /* key: D("1tZVW8AoyRSDMEUeXbh8RQ3__Os77W6fj") */ extras:[
       ["Unit 5 Prerequisite Skills (answers included)",D("1Jy0yY2PcGE4QAfkfB6Z1Za7YYSe05EDK"),"skills"],
+      ["Khan: Secant, Cosecant & Cotangent Example (5 min)","https://www.youtube.com/watch?v=Q7htxHDN8LE","vid"],
+      ["Mr Cioffi: Reciprocal Trig Ratios (8 min)","https://www.youtube.com/watch?v=o2arWOQYDqg","vid"],
       ["Ms Havrot 5.1: Primary & Reciprocal Trig Ratios","https://www.youtube.com/watch?v=YM2TLmh4QAE","vid"],
       ["SOH CAH TOA Explained","https://www.youtube.com/watch?v=5tp74g4N8EY","vid"],
       ["Trig Ratios Practice",D("1TGppnz1JBxMeghzxpxnU-gJTYQTVD5--"),"doc"],
@@ -470,6 +472,8 @@ const COURSE = {
     {d:47, iso:"2026-11-09", topic:"Special Angles", num:"5.2",
       note:D("1K_NRqUJimp-XPG0h_GGSkUG7jsx2-WSM"),
       ans:D("1QEmlHCmLItpgeO6YxjgNYpPJkA0VCxRX"), /* key: D("1QEmlHCmLItpgeO6YxjgNYpPJkA0VCxRX") */ extras:[
+      ["Mr Cioffi: Special Angles (6 min)","https://www.youtube.com/watch?v=5ukd8tAEEGY","vid"],
+      ["Exact Values from the Special Triangles (7 min)","https://www.youtube.com/watch?v=6NOZtD2Q6Y0","vid"],
       ["Ms Havrot 5.2: Exact Values with Special Triangles","https://www.youtube.com/watch?v=oABJcKscW08","vid"],
       ["Special Triangle Practice",D("1VqVdKfrZEG7ypRrR87jrzLtY9UkpllSa"),"doc"],
       ["Answers",D("1VpHalqIgobhpCmHbMe8h1TLHXwy_i6ek"),"ans"],
@@ -480,6 +484,8 @@ const COURSE = {
     {d:48, iso:"2026-11-10", topic:"Angles Beyond 90°", num:"5.3",
       note:D("1c6ajJ0q2IAgaqUwK2QsVc4waz_B1hBzP"),
       ans:D("1RrQnEIFZabl9rck_nAmq_-eXbamHWleK"), /* key: D("1RrQnEIFZabl9rck_nAmq_-eXbamHWleK") */ extras:[
+      ["JensenMath: Finding Related Angles (8 min)","https://www.youtube.com/watch?v=vSpTzF63BfI","vid"],
+      ["Mr Cioffi: Co-terminal and Related Angles (12 min)","https://www.youtube.com/watch?v=zSY9TDUD4Tk","vid"],
       ["Ms Havrot 5.3: Trig Ratios for Angles Greater than 90 degrees","https://www.youtube.com/watch?v=H9dSvqUkDnE","vid"],
       ["Unit Circle Simulation (PhET)","https://phet.colorado.edu/sims/html/trig-tour/latest/trig-tour_en.html","doc"],
       ["CAST Rule Practice",D("1XcA6A0MfLydHePZPzM7qLAZe2ehbD8YH"),"doc"],
@@ -491,6 +497,7 @@ const COURSE = {
       topic:"Trig Ratios for Any Angle", num:"5.4",
       note:D("1-luPpRhDQNfP91DofFLVBB5YVCSSMe-S"),
       ans:D("15ICBZzKaFyF035RTsFO44EQ9u-vX4EKv"), /* key: D("15ICBZzKaFyF035RTsFO44EQ9u-vX4EKv") */ extras:[
+      ["JensenMath: Finding Angles from 0° to 360° (full lesson, 21 min)","https://www.youtube.com/watch?v=PHs_7MSGssI","vid"],
       ["Ms Havrot 5.4: Trig Ratios Between 0 and 360 degrees","https://www.youtube.com/watch?v=KCu9zQ36kEk","vid"],
       ["Unit Circle Practice",D("1W9_vIVdn6b28G0y2V3f0Gon4wPrV4Ac_"),"doc"],
       ["JensenMath: Solving Trig Equations Worksheet",D("1DwRcb4cVGADrXKoaHJCB6nULAkDrRSgB"),"doc"],
@@ -499,6 +506,7 @@ const COURSE = {
     {d:50, iso:"2026-11-12", topic:"Trig Identities", num:"5.5",
       note:D("13o-EtHxGXVAhepHVOgr8F69W1cni52oL"),
       ans:D("1mpIndCEUYAk3MOn7nSwhxdXMfYQgMl7V"), /* key: D("1mpIndCEUYAk3MOn7nSwhxdXMfYQgMl7V") */ extras:[
+      ["Mr Cioffi: Trig Identities (14 min)","https://www.youtube.com/watch?v=JPeY1cfG64g","vid"],
       ["Ms Havrot 5.5: Trigonometric Identities Explained","https://www.youtube.com/watch?v=GCEBhegMMM0","vid"],
       ["Ms Havrot: Trig Identities Made Easy","https://www.youtube.com/watch?v=c0wsJWgACoI","vid"],
       ["Khan: Using Pythagorean Identities","https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:trig/x9e81a4f98389efdf:using-trig-id/v/examples-using-pythagorean-identities-to-simplify-trigonometric-expressions","vid"],
@@ -522,6 +530,7 @@ const COURSE = {
       noteLabel:"Sine Law Blank Note & Practice Problems",
       note:D("1kmcnSOOZE49F0Eh7vxxoH4IH4pqlpCh4"),
       ans:D("1kC4N34yMs0L_hS70D407E7MTUPODJWVb"), /* key: D("1kC4N34yMs0L_hS70D407E7MTUPODJWVb") */ extras:[
+      ["Sine Law: Finding a Side (4 min)","https://www.youtube.com/watch?v=brP75Ea17uM","vid"],
       ["Ms Havrot: The Sine Law","https://www.youtube.com/watch?v=goHdnHnW0sk","vid"],
       ["Sine & Cosine Law Practice",D("1WJqAjD2TKD4-8wVt3T7t3-G5s1ZiNFMs"),"doc"],
       ["Answers",D("1WO82PSsNxXRU0Ot3rT0bOmUuwQLhJZR1"),"ans"],
@@ -530,6 +539,7 @@ const COURSE = {
       noteLabel:"Ambiguous Case Blank Note & Practice Problems",
       note:D("1Wl5M1cZZhd8iXy2aA0On6IaNcFqVGPuW"),
       ans:D("13chXM-KgNriX7tjDKpR1nI53OHckjT7D"), /* key: D("13chXM-KgNriX7tjDKpR1nI53OHckjT7D") */ extras:[
+      ["The Ambiguous Case: Why 0, 1 or 2 Triangles (5 min)","https://www.youtube.com/watch?v=S1oDtGHC2iA","vid"],
       ["The Ambiguous Case, Worked","https://www.youtube.com/watch?v=RCyjglaJo5w","vid"],
       ["Ambiguous Case Worksheet",D("1d1rFfGRTuhshg9Ez2ENU_KYoqNQOKKoL"),"doc"],
       ["Answers",D("1d3Fs6z9s3zVJfZvwXZAN_vyLw56QaUfo"),"ans"],
@@ -541,11 +551,13 @@ const COURSE = {
       topic:"Cosine Law", num:"5.8",
       note:D("1H7wBP1bgGdNlU0x27DbTH_CjpO_Z8rDB"),
       ans:D("1B4c57Ch6TdROzg1FAtuPg90vCwMScvBq"), /* key: D("1B4c57Ch6TdROzg1FAtuPg90vCwMScvBq") */ extras:[
+      ["Nerdstudy: The Cosine Law (6 min)","https://www.youtube.com/watch?v=9U07GLKicnM","vid"],
       ["Ms Havrot: The Cosine Law","https://www.youtube.com/watch?v=YR8xjSBBJaM","vid"],
     ]},
     {d:56, iso:"2026-11-20", topic:"Trig in Three Dimensions", num:"5.9",
       note:D("1Lm2q_8kSlzWmP4gLes0VGumfxYNj18FK"),
       ans:D("14w96g6jLAE1RVDo-CK4hKI0wkCi7-LZs"), /* key: D("14w96g6jLAE1RVDo-CK4hKI0wkCi7-LZs") */ extras:[
+      ["JensenMath: Trig Problems in 2-D and 3-D (full lesson, 18 min)","https://www.youtube.com/watch?v=RoMMs_Zg3nM","vid"],
       ["Ms Havrot: 3-D Problems with Bearings","https://www.youtube.com/watch?v=V0kKrpqNBoE","vid"],
       ["JensenMath: Problems in 2-D and 3-D Worksheet",D("1rN-r8CkEAE7w8BCeih7BhJtY9AmcdHx_"),"doc"],
       ["Answers",D("14arJWRhR5WsXbhaYvXNw9IvVRTTyN-x0"),"ans"],
@@ -569,6 +581,7 @@ const COURSE = {
       note:D("1hhz84UQgPyBifCy6oGUGOrPbrCsRlsHo"),
       ans:"", /* key: D("1Wkixpm1SsP6160sgRJvKm9OKsLQpqoMY") */ extras:[
       ["Unit 6 Prerequisite Skills (answers included)",D("1KQb59eHXBgw3rdH-Aveqs-eMiB80SLve"),"skills"],
+      ["JensenMath: Periodic Functions (full lesson, 16 min)","https://www.youtube.com/watch?v=oWuEVzdAF3k","vid"],
       ["Ms Havrot 6.1: Periodic Functions","https://www.youtube.com/watch?v=xDSoGT-PESk","vid"],
       ["JensenMath: Periodic Behaviour Worksheet",D("1FGd-zFEkhf1Hi1AUOi8PXPeTMV2xprwc"),"doc"],
       ["Answers",D("18TMmbexjshqO8bC2gFQ1Ep0JYArikrK6"),"ans"],
@@ -576,6 +589,8 @@ const COURSE = {
     {d:60, iso:"2026-11-27", topic:"Properties of Sinusoidal Functions", num:"6.2",
       note:D("1v2gLoEu8tPO0Mz9aZRzzVnAO0cD6Q0ud"),
       ans:"", /* key: D("1s4dxDOnl7H_pqvDgVUJfq0FEnRtWijLw") */ extras:[
+      ["Watch a Circle Draw the Sine Graph (30 sec)","https://www.youtube.com/watch?v=Q55T6LeTvsA","vid"],
+      ["JensenMath: From the Unit Circle to the Sine & Cosine Graphs (9 min)","https://www.youtube.com/watch?v=nzGnlvWZ2Rg","vid"],
       ["Ms Havrot 6.2: y = sin x and y = cos x","https://www.youtube.com/watch?v=ki4wmo_j8ls","vid"],
       ["sin x and cos x Practice",D("1YeaqyyNrpd97Nw-oKzvB8_-k_4ZWzGFB"),"doc"],
       ["More Practice (answers included)",D("1YrlsHpqROhZnNa4j203XfwLXgX_7QyyZ"),"doc"],
@@ -585,6 +600,7 @@ const COURSE = {
     {d:61, iso:"2026-11-30", topic:"Interpreting Sinusoidal Functions", num:"6.3",
       note:D("1NBHij19eME0Wajs60bfg43PiEt0eF-ZV"),
       ans:"", /* key: D("16wPzQ09Iw1yKDypip29zc0TlgoShvEyJ") */ extras:[
+      ["Khan: Midline, Amplitude and Period (5 min)","https://www.youtube.com/watch?v=s4cLM0l1gd4","vid"],
       ["Ms Havrot 6.3: Interpreting Sinusoidal Functions","https://www.youtube.com/watch?v=-LGqUsObWrw","vid"],
       ["Analysing Graphs Worksheet",D("1a9Gpby6yNzrEUGZKUvFp2Wwsc_H7sKaJ"),"doc"],
       ["Answers",D("1aTt5_xunUNjKr-ILTwixvnvUvjclNjNO"),"ans"],
@@ -600,6 +616,7 @@ const COURSE = {
     {d:63, iso:"2026-12-02", topic:"Graphing Sinusoidal Functions", num:"6.5",
       note:D("1lnWLQtPaDderivvW9rFTvCKbKS2coIbB"),
       ans:"", /* key: D("1VNLqhVyKFOHONKmKvDoUWuHw9Q1avCpD") */ extras:[
+      ["JensenMath: Graphing Transformed Sine & Cosine (full lesson, 22 min)","https://www.youtube.com/watch?v=dPNcPTnmuZw","vid"],
       ["Ms Havrot 6.5: Sketching with Transformations","https://www.youtube.com/watch?v=emoBZSxrphw","vid"],
       ["Trig Function Practice",D("1ZcaRWQE6K9NHLvckYBoodakrbqTIZrBO"),"doc"],
       ["Answers",D("1Ztp1kxG_UjfbDekxu_DTYHV2kUrgCeyK"),"ans"],
@@ -610,6 +627,7 @@ const COURSE = {
       noteLabel:"Equations from Graphs Blank Note & Practice Problems",
       note:D("17NMuA6ynW8ZVMwWXfOrRN0J4Xgf7sCy8"),
       ans:"", /* key: D("1fwPkd9l9Pk23WXmN4PHbfLS3zSrR6Atp") */ extras:[
+      ["JensenMath: Finding the Equation from a Graph (full lesson, 23 min)","https://www.youtube.com/watch?v=_ZcxZozR31M","vid"],
       ["Ms Havrot 6.6: Equations from Graphs","https://www.youtube.com/watch?v=cpHiZ-8mxmc","vid"],
       ["Ms Havrot 6.6: Equations from Graphs (homework)","https://www.youtube.com/watch?v=VNjUNCUoxxo","vid"],
       ["JensenMath: Equation from Graph Worksheet",D("1L5_Cz5vFBBT_mAa-zbr3Z7U7JhWSBLJ1"),"doc"],
@@ -625,6 +643,8 @@ const COURSE = {
     {d:66, iso:"2026-12-07", topic:"Solving Problems with Sinusoidal Models", num:"6.7",
       note:D("164tuZ7p9urzrLM2oGZO-CVZbBGZDzwt5"),
       ans:"", /* key: D("1xrFjPCTYSPJ857ViHSrHaJw5XfmQYlqH") */ extras:[
+      ["Ferris Wheel & Temperature Word Problems (17 min)","https://www.youtube.com/watch?v=KOOORDz_AYw","vid"],
+      ["JensenMath: Trig Applications (full lesson, 22 min)","https://www.youtube.com/watch?v=vA9cXLhgRz8","vid"],
       ["Ms Havrot 6.7: Trigonometric Models","https://www.youtube.com/watch?v=E_f1OhciJ3M","vid"],
       ["Solving Trig Functions",D("1ayY1R-2SAPkPKBD6WC98WDSjffqBeOgw"),"doc"],
       ["JensenMath: Trig Applications Worksheet 1",D("1J5xuTVE4qdpKep6bDSgwEQ3mAW2Mz9rv"),"doc"],
@@ -654,6 +674,7 @@ const COURSE = {
       note:D("1YRvgX_8miXnuAUNfoMJ2QvBDmi3hKfj1"),
       ans:"", /* key: D("1Np4YU7KA5zRcmqI3R_HvN2smgjdrRvfA") */ extras:[
       ["Unit 7 Prerequisite Skills (answers included)",D("1yWx_m8uvFlSvPdh32lRa_AOOhTRqXXxk"),"skills"],
+      ["JensenMath: Arithmetic & Geometric Sequences (full lesson, 18 min)","https://www.youtube.com/watch?v=-_myO_Lmdbw","vid"],
       ["Ms Havrot 7.1: Arithmetic Sequences","https://www.youtube.com/watch?v=Kywsd6LKXKg","vid"],
       ["JensenMath: Sequences Worksheet",D("1wLUlIfZJCEIHCRd4TFASrN9_Q71W8TJb"),"doc"],
       ["Answers",D("1qT6npurfV2M4f8fzLQ0lXJcDm9UapJ2W"),"ans"],
@@ -661,6 +682,8 @@ const COURSE = {
     {d:71, iso:"2026-12-14", topic:"Arithmetic Series", num:"7.2",
       note:D("1_2G8AIGTT4SdKJhUgTWOA9XgmQyc7TKj"),
       ans:"", /* key: D("14_2JMCadpwKliGWLL_-oANh-xZbFHS3a") */ extras:[
+      ["Sum of an Arithmetic Series, Intro (4 min)","https://www.youtube.com/watch?v=coLNGmu624s","vid"],
+      ["JensenMath: Arithmetic & Geometric Series (full lesson, 16 min)","https://www.youtube.com/watch?v=JtnMrqsA9Io","vid"],
       ["Ms Havrot: Arithmetic Series (Part 1)","https://www.youtube.com/watch?v=1TfHHTSS1jk","vid"],
       ["Ms Havrot: Arithmetic Series (Part 2)","https://www.youtube.com/watch?v=_vsOtJkFLUU","vid"],
       ["JensenMath: Arithmetic & Geometric Series Worksheet",D("1FVM6766JKS5ZX5J_k1GOj6gDWjqFyriB"),"doc"],
@@ -670,6 +693,7 @@ const COURSE = {
       topic:"Geometric Sequences", num:"7.3",
       note:D("1Oj210nWTLwvlxo0PkwJpD2aeIRfxqiLo"),
       ans:"", /* key: D("1ewN626og8EpmQRHj-9CDJFsYdpwDDCkO") */ extras:[
+      ["JensenMath: More Arithmetic & Geometric Sequences (full lesson, 19 min)","https://www.youtube.com/watch?v=5W_kr8KsffA","vid"],
       ["Ms Havrot 7.2: Geometric Sequences","https://www.youtube.com/watch?v=jtVesKxLyIA","vid"],
       ["JensenMath: Arithmetic & Geometric Sequences Worksheet",D("1NtPO_KIAtVkTmMjmeyU3uwXUAvH4Zv1_"),"doc"],
       ["Answers",D("12kaKyH4wMjasB1bfmLOUsB2UX-X7mPtF"),"ans"],
@@ -677,6 +701,7 @@ const COURSE = {
     {d:73, iso:"2026-12-16", topic:"Geometric Series", num:"7.4",
       note:D("1qIvJJqWc53MxMLaqaIDmPXDEXsE-8N0o"),
       ans:"", /* key: D("1SPxT23KAvfoMKNwMSXkVvAyM4NxpZ3Iz") */ extras:[
+      ["Sum of a Geometric Series (4 min)","https://www.youtube.com/watch?v=mcnblnEsf98","vid"],
       ["Ms Havrot: Sum of a Geometric Series","https://www.youtube.com/watch?v=4iHjc5vi3rQ","vid"],
       ["JensenMath: More Series Problems Worksheet",D("1fS3v_LVXp_DZe0k_FZlxt1ux2pzKJ9fN"),"doc"],
       ["Answers",D("1Kb6TISnZuDFQ8Q71lkZtcjLRqdrTTbz5"),"ans"],
@@ -687,6 +712,7 @@ const COURSE = {
       note:D("1bG1c7fbVWSXhw7akwLuPzughdj3hlFxD"),
       ans:"", /* key: D("10czApFa2sNWXpWtSGaIqludtvrXbH_V0") */ extras:[
       ["Khan: Evaluating Sequences in Recursive Form","https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:sequences/x2f8bb11595b61c86:general-sequences/v/recursive-formulas-for-sequences","vid"],
+      ["JensenMath: Recursive Functions (full lesson, 17 min)","https://www.youtube.com/watch?v=dLPs0-G_Hkg","vid"],
       ["Khan: Converting Recursive & Explicit Forms","https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:sequences/x2f8bb11595b61c86:constructing-arithmetic-sequences/e/explicit-and-recursive-formulas-of-arithmetic-sequences","doc"],
       ["JensenMath: Recursive Functions Worksheet",D("1MwdS_46NGbwplJvcDKunhiYPuEMEQQ9v"),"doc"],
       ["Answers",D("1DpjetkH8Dy9W4w_sNfuSV4Ym9764ncRl"),"ans"],
@@ -698,6 +724,8 @@ const COURSE = {
       noteLabel:"Blank Note & Practice Problems",
       note:D("1DrXK8dmMwVsw-0NfTsiA9S1kw6IGo2ws"),
       ans:"", /* key: D("1OI_Zacdg3hA_9cE5fOR-eCPNqAQRQLx3") */ extras:[
+      ["Expanding Binomials with Pascal's Triangle (8 min)","https://www.youtube.com/watch?v=cBK4imK7wKM","vid"],
+      ["JensenMath: Top 10 Patterns in Pascal's Triangle (19 min)","https://www.youtube.com/watch?v=MwFxofHwr2g","vid"],
       ["Ms Havrot: Pascal's Triangle & Binomial Expansion","https://www.youtube.com/watch?v=_alTrrhD4v8","vid"],
       ["JensenMath: Pascal's Triangle Worksheet 1",D("1Xw-dKfdjPAWtMyXijPfiMHRwAG7UsuRS"),"doc"],
       ["Answers",D("1yjHoXmyqCIwm_rbnJoCEVUcXaWvHgIhO"),"ans"],
@@ -707,11 +735,13 @@ const COURSE = {
     {d:77, iso:"2027-01-05", topic:"Simple Interest", num:"7.5",
       note:D("1ZZvOMYCneIXDd-70z4eEvYSk80ziA5EE"),
       ans:"", /* key: D("1ceeIg2FrFOTymgKit4uBDzm49kima0Oz") */ extras:[
+      ["Simple Interest in 3 Minutes (3 min)","https://www.youtube.com/watch?v=jtFE94lf7Vw","vid"],
       ["Ms Havrot: Simple Interest","https://www.youtube.com/watch?v=FDcpl3Zd4oo","vid"],
     ]},
     {d:78, iso:"2027-01-06", topic:"Compound Interest: Future Value", num:"7.6",
       note:D("1m7-mYFBlTh0BdJYlKWghRYoJEG7xIvUv"),
       ans:"", /* key: D("1weMQwJUPm51feuhzYl912CAm8bnWKfuv") */ extras:[
+      ["Andrighetti: Compound Interest, Future & Present Value (32 min)","https://www.youtube.com/watch?v=8TSsMmmR2PY","vid"],
       ["Ms Havrot: Compound Interest, Future Value","https://www.youtube.com/watch?v=epa2huwxGUI","vid"],
       ["JensenMath: Compound Interest Worksheet",D("1rdvBg-AhoTxCA0v1bbeDHDJ2UHP2DEqc"),"doc"],
       ["Answers",D("11FFfITaGCoDEALW4IiUBIBkhpGcj6-nB"),"ans"],
@@ -725,11 +755,13 @@ const COURSE = {
       topic:"Annuities: Future Value", num:"7.8",
       note:D("1CFMqYpLy6iYnb0F8CkB1OmtSs5Iuyr2b"),
       ans:"", /* key: D("1_uhOql_Xs1QiJ57CKCYxdRDasxTineeD") */ extras:[
+      ["Andrighetti: Annuities, Future & Present Value (21 min)","https://www.youtube.com/watch?v=4uEOwzDvYlQ","vid"],
       ["Ms Havrot: Future Value of an Annuity","https://www.youtube.com/watch?v=nbTQ-wEHt3g","vid"],
     ]},
     {d:81, iso:"2027-01-11", topic:"Annuities: Present Value", num:"7.9",
       note:D("1TO5uVSs_m0l38x2oedWhPpQ0wNCp0Wn_"),
       ans:"", /* key: D("1xRwJP0G6Kfr8DJDAy8wL9d9Va2S-xSxP") */ extras:[
+      ["Present Value of an Annuity (10 min)","https://www.youtube.com/watch?v=J7ht3hXr6G0","vid"],
       ["Ms Havrot: Present Value of an Annuity","https://www.youtube.com/watch?v=7VXv8CShUcA","vid"],
     ]},
     {d:82, iso:"2027-01-12", topic:"Finance Problems: Varying the Conditions",
@@ -759,6 +791,7 @@ const COURSE = {
   {name:"Exam Review", noNumber:true, days:[
     {d:86, iso:"2027-01-18", topic:"Exam Review: Units 1–3", note:"", ans:"", extras:[
       ["Ms Havrot: Exam Practice Part B, #1-9","https://www.youtube.com/watch?v=I58lbxHl43k","vid"],
+      ["JensenMath: All of Grade 11 in 1 Hour, Part 1: Functions, Quadratics, Rational Expressions (27 min)","https://www.youtube.com/watch?v=yEPVEfUVrF4","vid"],
       ["Exam Review Questions",D("1mZhR-seS36JokQws-jNcHdMnWb3IA8zk"),"doc"],
       ["Answers",D("1m_DXZHC4eq-P6fMxr_L2VPmHACf10CGN"),"ans"],
       ["JensenMath: Exam Review: Functions",D("1EVZljx5pyHFYEybakLAERQT_VQwrBGBi"),"doc"],
@@ -770,6 +803,7 @@ const COURSE = {
     ]},
     {d:87, iso:"2027-01-19", topic:"Exam Review: Units 4–5", note:"", ans:"", extras:[
       ["Ms Havrot: Exam Practice Part B, #10-16","https://www.youtube.com/watch?v=pczHpjaEi0U","vid"],
+      ["JensenMath: All of Grade 11 in 1 Hour, Part 2: Transformations, Exponentials, Sequences & Series (20 min)","https://www.youtube.com/watch?v=A9peFTbopxY","vid"],
       ["JensenMath: Exam Review: Exponential Functions",D("1ZzNY3rikCoFK8A1Pvm1_e1WkZ_iAmTlW"),"doc"],
       ["Answers",D("18aYiF313JYYeBr32pxcGg6NgpnJ1Skmv"),"ans"],
       ["JensenMath: Exam Review: Trig Geometry",D("1MicOzIXNNSAlTAYM5oCJUaUYHVluQDgD"),"doc"],
@@ -777,6 +811,7 @@ const COURSE = {
     ]},
     {d:88, iso:"2027-01-20", topic:"Exam Review: Units 6–7", note:"", ans:"", extras:[
       ["Ms Havrot: Exam Review, Last Video","https://www.youtube.com/watch?v=iNbz6EPBWJg","vid"],
+      ["JensenMath: All of Grade 11 in 1 Hour, Part 3: Trig Ratios & Trig Functions (27 min)","https://www.youtube.com/watch?v=7NdUjo4ya0Y","vid"],
       ["JensenMath: Exam Review: Trig Functions",D("1G8GwHQkFjSwNAtAAA7Scjx4SRhPwA81i"),"doc"],
       ["Answers",D("1UieDkI4cbUIrZSGurCa17zcbjjXAd77G"),"ans"],
       ["JensenMath: Exam Review: Discrete Functions",D("1Pg8yhlyojksZLIAxYcvYRnOeV1ipo6lC"),"doc"],

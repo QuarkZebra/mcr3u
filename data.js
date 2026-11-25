@@ -38,7 +38,7 @@
 
    To Save Time:
 
-   git add . && git commit -m "5.1 key added" && git push origin main
+   git add . && git commit -m "no transformations on u5 test" && git push origin main
    ═══════════════════════════════════════════════════════════ */
 
 const D = id => `https://drive.google.com/file/d/${id}/view`;
@@ -557,7 +557,7 @@ const COURSE = {
       ["JensenMath: Trig Geometry Unit Review",D("1e2Yfwaqq8CdB-aGG1mA1RarEB0_YMXMt"),"doc"],
       ["Answers",D("1bUOX200fks4m3DeC3dmU-dlkUbKe1TDK"),"ans"],
     ]},
-    {d:58, iso:"2026-11-25", flag:"test", covers:"5.6–5.9 + Transformations of Functions",
+    {d:58, iso:"2026-11-25", flag:"test", covers:"Unit 5",
       topic:"", extras:[]},
   ]},
 

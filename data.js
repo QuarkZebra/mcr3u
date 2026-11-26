@@ -579,7 +579,7 @@ const COURSE = {
   {name:"Sinusoidal Functions", days:[
     {d:59, iso:"2026-11-26", topic:"Periodic Functions & Their Properties", num:"6.1",
       note:D("1hhz84UQgPyBifCy6oGUGOrPbrCsRlsHo"),
-      ans:"", /* key: D("1Wkixpm1SsP6160sgRJvKm9OKsLQpqoMY") */ extras:[
+      ans:D("1Wkixpm1SsP6160sgRJvKm9OKsLQpqoMY"), /* key: D("1Wkixpm1SsP6160sgRJvKm9OKsLQpqoMY") */ extras:[
       ["Unit 6 Prerequisite Skills (answers included)",D("1KQb59eHXBgw3rdH-Aveqs-eMiB80SLve"),"skills"],
       ["JensenMath: Periodic Functions (full lesson, 16 min)","https://www.youtube.com/watch?v=oWuEVzdAF3k","vid"],
       ["Ms Havrot 6.1: Periodic Functions","https://www.youtube.com/watch?v=xDSoGT-PESk","vid"],

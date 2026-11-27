@@ -588,7 +588,7 @@ const COURSE = {
     ]},
     {d:60, iso:"2026-11-27", topic:"Properties of Sinusoidal Functions", num:"6.2",
       note:D("1v2gLoEu8tPO0Mz9aZRzzVnAO0cD6Q0ud"),
-      ans:"", /* key: D("1s4dxDOnl7H_pqvDgVUJfq0FEnRtWijLw") */ extras:[
+      ans:D("1s4dxDOnl7H_pqvDgVUJfq0FEnRtWijLw"), /* key: D("1s4dxDOnl7H_pqvDgVUJfq0FEnRtWijLw") */ extras:[
       ["Watch a Circle Draw the Sine Graph (30 sec)","https://www.youtube.com/watch?v=Q55T6LeTvsA","vid"],
       ["JensenMath: From the Unit Circle to the Sine & Cosine Graphs (9 min)","https://www.youtube.com/watch?v=nzGnlvWZ2Rg","vid"],
       ["Ms Havrot 6.2: y = sin x and y = cos x","https://www.youtube.com/watch?v=ki4wmo_j8ls","vid"],
